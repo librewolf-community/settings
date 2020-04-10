@@ -1,0 +1,10 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "general.config.filename",
+        "value": "librewolf.cfg"
+    }
+]

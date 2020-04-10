@@ -1,0 +1,81 @@
+[
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.webextensions.restrictedDomains",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.webextensions.identity.redirectDomain",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.webextensions.base-content-security-policy",
+        "value": "script-src 'self' https://* moz-extension: blob: filesystem: 'unsafe-eval' 'unsafe-inline'; object-src 'self' https://* moz-extension: blob: filesystem:;"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.csp.enable",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.csp.experimentalEnabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.csp.enable_violation_events",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.webextensions.tabhide.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.webcompat-reporter.newIssueEndpoint",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.webcompat-reporter.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.webextensions.background-delayed-startup",
+        "value": true
+    }
+]

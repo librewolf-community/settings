@@ -1,0 +1,130 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.sessionhistory.max_entries",
+        "value": 20
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.filter.javascript",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "browser.uiCustomization.state",
+        "value": "{\"placements\":{\"widget-overflow-fixed-list\":[],\"nav-bar\":[\"home-button\",\"downloads-button\",\"back-button\",\"forward-button\",\"stop-reload-button\",\"urlbar-container\",\"add-ons-button\",\"preferences-button\",\"fxa-toolbar-menu-button\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"PersonalToolbar\":[\"personal-bookmarks\"]},\"seen\":[\"developer-button\"],\"dirtyAreaCache\":[\"nav-bar\",\"toolbar-menubar\",\"TabsToolbar\",\"PersonalToolbar\"],\"currentVersion\":16,\"newElementCount\":3}"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "browser.uidensity",
+        "value": 2
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "browser.tabs.drawInTitlebar",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "pref",
+        "key": "startup.homepage_override_url",
+        "value": "about:blank"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "pref",
+        "key": "startup.homepage_welcome_url",
+        "value": "about:blank"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "pref",
+        "key": "startup.homepage_welcome_url.additional",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "privacy.clearOnShutdown.offlineApps",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "privacy.cpd.offlineApps",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "privacy.sanitize.timeSpan",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "browser.formfill.enable",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "privacy.sanitize.sanitizeOnShutdown",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "places.history.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "places.history.expiration.max_pages",
+        "value": 2147483647
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "privacy.history.custom",
+        "value": true
+    }
+]

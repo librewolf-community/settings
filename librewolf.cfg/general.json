@@ -1,0 +1,2146 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.onboarding.notification.finished",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.onboarding.tour.onboarding-tour-customize.completed",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.onboarding.tour.onboarding-tour-performance.completed",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.onboarding.telemetry.logged",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.engine.addresses.available",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.bookmarks.restore_default_bookmarks",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "pdfjs.previousHandler.alwaysAskBeforeHandling",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "pdfjs.enabledCache.state",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "pref.general.disable_button.default_browser",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "pref.privacy.disable_button.view_passwords",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "identity.mobilepromo.android",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.systemAddon.update.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "datareporting.healthreport.infoURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.daysBeforeHidingSuggestionsPrompt",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.searchSuggestionsChoice",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.timesBeforeHidingSuggestionsHint",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.shell.didSkipDefaultBrowserCheckOnFirstRun",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.feedback.baseURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.normandy.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.normandy.api_url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.normandy.first_run",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.normandy.user_id",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.releaseNotesURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.update.auto",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.update.autoUpdateDefault",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.update.staging.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.update.silent",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.update.lastUpdateTime.telemetry_modules_ping",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.update.url.details",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.update.url.manual",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.vendorURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "breakpad.reportURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.chrome.errorReporter.submitUrl",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.chrome.errorReporter.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.ping-centre.staging.endpoint",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.ping-centre.telemetry",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.id",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.pver",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.mozilla.pver",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.allowOverride",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.blockedURIs.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.downloads.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.downloads.remote.block_dangerous",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.downloads.remote.block_dangerous_host",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.downloads.remote.block_potentially_unwanted",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.downloads.remote.block_uncommon",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.downloads.remote.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.downloads.remote.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.malware.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.passwords.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.phishing.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.advisoryURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.dataSharing.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.dataSharingURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.gethashURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.lists",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.reportMalwareMistakeURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.reportPhishMistakeURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.reportURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.updateURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.lastupdatetime",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google4.nextupdatetime",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.advisoryURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.gethashURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.lastupdatetime",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.lists",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.nextupdatetime",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.pver",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.reportMalwareMistakeURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.reportPhishMistakeURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.reportURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.google.updateURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.mozilla.gethashURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.mozilla.lastupdatetime",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.mozilla.nextupdatetime",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.provider.mozilla.updateURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.safebrowsing.reportPhishURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.search.suggest.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "captivedetect.canonicalURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "datareporting.policy.firstRunURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.devedition.promo.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.devices.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.gcli.imgurUploadURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.gcli.jquerySrc",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.gcli.underscoreSrc",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.telemetry.supported_performance_marks",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.battery.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.permissions.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.popup_maximum",
+        "value": 4
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.registerProtocolHandler.insecure.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.blocklist.detailsURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.blocklist.itemURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.blocklist.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.update.background.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.getAddons.showPane",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.webservice.discoverURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "gecko.handlerService.schemes.mailto.0.uriTemplate",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "gecko.handlerService.schemes.mailto.1.uriTemplate",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "gecko.handlerService.schemes.webcal.0.uriTemplate",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "geo.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "geo.wifi.uri",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "identity.fxaccounts.auth.uri",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "identity.fxaccounts.remote.oauth.uri",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "identity.fxaccounts.remote.profile.uri",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "identity.mobilepromo.ios",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "layout.css.visited_links_enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "lpbmode.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "mailnews.messageid_browser.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "mailnews.mx_service_url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.predictor.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.predictor.cleaned-up",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.predictor.enable-prefetch",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "plugins.crash.supportUrl",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.clients.lastSync",
+        "value": "0"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.clients.lastSyncLocal",
+        "value": "0"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.declinedEngines",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.globalScore",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.jpake.serverURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.migrated",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.nextSync",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.prefs.sync.browser.safebrowsing.downloads.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.prefs.sync.browser.safebrowsing.malware.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.prefs.sync.browser.safebrowsing.passwords.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.prefs.sync.browser.safebrowsing.phishing.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.serverURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.tabs.lastSync",
+        "value": "0"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "services.sync.tabs.lastSyncLocal",
+        "value": "0"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "sync.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "sync.jpake.serverURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "sync.serverURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.crashreporter.infoURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.archive.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.updatePing.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.bhrPing.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.cachedClientID",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.firstShutdownPing.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.hybridContent.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.infoURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.newProfilePing.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.previousBuildID",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.prompted",
+        "value": 2
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.rejected",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.reportingpolicy.firstRun",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.server",
+        "value": "data:,"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.server_owner",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.shutdownPingSender.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.unified",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.telemetry.coverage.opt-out",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "webextensions.storage.sync.serverURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.screenshots.upload-disabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.http.referer.trimmingPolicy",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.tabs.closeTabByDblclick",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "datareporting.healthreport.uploadEnabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "datareporting.policy.dataSubmissionEnabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.event.contextmenu.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.event.clipboardevents.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.IDN_show_punycode",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.pocket.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.pocket.site",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.pocket.oAuthConsumerKey",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.pocket.api",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.aboutHomeSnippets.updateUrl",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "general.buildID.override",
+        "value": "20100101"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.startup.homepage_override.buildID",
+        "value": "20100101"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.send_pings",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.send_pings.require_same_host",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.cache.offline.enable",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.prefetch-next",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.http.speculative-parallel-limit",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "media.peerconnection.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.enable_performance",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.enable_performance_navigation_timing",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.enable_user_timing",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.webaudio.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "geo.wifi.logging.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "beacon.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "media.webspeech.recognition.enable",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.vr.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.vibrator.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.search.region",
+        "value": "US"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.search.geoip.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.search.geoSpecificDefaults.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.search.geoSpecificDefaults",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.trimURLs",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.fixup.alternate.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.fixup.hide_user_pass",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.manage-offline-status",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.fileuri.strict_origin_policy",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "gfx.font_rendering.opentype_svg.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.warn-external-default",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.http",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.https",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.javascript",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.moz-extension",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.ftp",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.file",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.about",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.chrome",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.blob",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.data",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose-all",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.http",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.https",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.javascript",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.moz-extension",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.ftp",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.file",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.about",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.chrome",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.blob",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.expose.data",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.dialog_enable_delay",
+        "value": 700
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.getAddons.cache.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "lightweightThemes.update.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "lightweightThemes.persisted.headerURL",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "lightweightThemes.persisted.footerURL",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "plugin.state.flash",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.ipc.plugins.flash.subprocess.crashreporter.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.ipc.plugins.reportCrashURL",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "shumway.disabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "plugin.state.libgnome-shell-browser-plugin",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "plugins.click_to_play",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "plugin.sessionPermissionNow.intervalInMinutes",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.update.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.blocklist.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "extensions.systemAddon.update.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.webide.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.webide.autoinstallADBExtension",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.remote.adb.extensionURL",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.remote.adb.extensionID",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "devtools.debugger.force-local",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.allow-experiments",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.tabs.crashReporting.sendReport",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.crashReports.unsubmittedCheck.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.crashReports.unsubmittedCheck.autoSubmit2",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.shield.optoutstudies.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.section.topstories",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.section.highlights.includePocket",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.showSponsored",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.aboutHome.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.asrouter.messageProviders",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.asrouter.devtoolsEnableds",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.telemetry",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.telemetry.ping.endpoint",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.telemetry",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.snippets",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.disableSnippets",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.default.sites",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.discoverystream.config",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.discoverystream.endpoints",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.asrouterfeed",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.discoverystreamfeed",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.newtabinit",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.places",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.systemtick",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtab.preload",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.suggest.searches",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.userMadeSearchSuggestionsChoice",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.search.update",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.captive-portal-service.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.negotiate-auth.allow-insecure-ntlm-v1",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.negotiate-auth.allow-insecure-ntlm-v1-https",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "signon.formlessCapture.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.helperApps.deleteTempFileOnExit",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.pagethumbnails.capturing_disabled",
+        "value": true
+    }
+]

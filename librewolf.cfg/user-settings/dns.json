@@ -1,0 +1,50 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.trr.mode",
+        "value": 5
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.trr.bootstrapAddress",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.trr.uri",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.dns.disableIPv6",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.dns.disablePrefetch",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.dns.disablePrefetchFromHTTPS",
+        "value": true
+    }
+]

@@ -1,0 +1,74 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.forms.datetime",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "javascript.use_us_english_locale",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "intl.regional_prefs.use_os_locales",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "intl.locale.requested",
+        "value": "en-US"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "general.useragent.override",
+        "value": "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0, 45"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "general.appname.override",
+        "value": "Netscape"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "general.appversion.override",
+        "value": "5.0 (Windows)"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "general.platform.override",
+        "value": "Win32"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "general.oscpu.override",
+        "value": "Windows NT 6.1"
+    }
+]

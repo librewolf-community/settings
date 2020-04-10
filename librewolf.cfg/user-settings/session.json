@@ -1,0 +1,18 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.sessionstore.privacy_level",
+        "value": 2
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.sessionstore.interval",
+        "value": 60000
+    }
+]

@@ -1,0 +1,90 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "webgl.dxgl.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "plugin.scan.plid.all",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.taskbar.lists.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.taskbar.lists.frequent.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.taskbar.lists.recent.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.taskbar.lists.tasks.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.taskbar.previews.enable",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.protocol-handler.external.ms-windows-store",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "app.update.service.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "toolkit.winRegisterApplicationRestart",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.family_safety.mode",
+        "value": 0
+    }
+]

@@ -1,0 +1,242 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.insecure_password.ui.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.insecure_field_warning.contextual.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "network.stricttransportsecurity.preloadlist",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl.disable_session_identifiers",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "network.dns.localDomains",
+        "value": "librefox.com"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.tls.version.fallback-limit",
+        "value": 3
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.tls.version.min",
+        "value": 2
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.cert_pinning.enforcement_level",
+        "value": 2
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.pki.sha1_enforcement_level",
+        "value": 1
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl.treat_unsafe_negotiation_as_broken",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.ssl_override_behavior",
+        "value": 1
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl.errorReporting.automatic",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl.errorReporting.url",
+        "value": ""
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.OCSP.enabled",
+        "value": 0
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.OCSP.require",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl.enable_ocsp_stapling",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl.errorReporting.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.mixed_content.upgrade_display_content",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.mixed_content.block_object_subrequest",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.mixed_content.block_display_content",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.mixed_content.block_active_content",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.insecure_connection_icon.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.insecure_connection_icon.pbmode.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.insecure_connection_text.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl3.rsa_des_ede3_sha",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl3.rsa_aes_256_sha",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl3.rsa_aes_128_sha",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl3.ecdh_ecdsa_rc4_128_sha",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl3.ecdh_rsa_rc4_128_sha",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "security.ssl3.rsa_seed_sha",
+        "value": false
+    }
+]

@@ -1,0 +1,42 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.feeds.section.highlights",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.section.highlights.includeBookmarks",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.section.highlights.includeDownloads",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.section.highlights.includeVisited",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "browser.newtabpage.activity-stream.prerender",
+        "value": false
+    }
+]

@@ -1,0 +1,10 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "media.autoplay.default",
+        "value": 2
+    }
+]

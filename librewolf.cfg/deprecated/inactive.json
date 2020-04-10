@@ -1,0 +1,26 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "xpinstall.signatures.required",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "toolkit.legacyUserProfileCustomizations.stylesheets",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "devtools.selfxss.count",
+        "value": 0
+    }
+]

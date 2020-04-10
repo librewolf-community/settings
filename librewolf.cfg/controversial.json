@@ -1,0 +1,18 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.indexedDB.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.w3c_pointer_events.enabled",
+        "value": false
+    }
+]

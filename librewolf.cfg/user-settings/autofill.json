@@ -1,0 +1,50 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.formautofill.addresses.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.formautofill.available",
+        "value": "off"
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.formautofill.creditCards.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "extensions.formautofill.heuristics.enabled",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "signon.autofillForms",
+        "value": false
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "signon.autofillForms.http",
+        "value": false
+    }
+]

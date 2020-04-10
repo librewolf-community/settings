@@ -1,0 +1,18 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "privacy.donottrackheader.enabled",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "privacy.donottrackheader.value",
+        "value": 1
+    }
+]

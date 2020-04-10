@@ -1,0 +1,18 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "dom.disable_beforeunload",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "lockPref",
+        "key": "permissions.default.geo",
+        "value": 2
+    }
+]

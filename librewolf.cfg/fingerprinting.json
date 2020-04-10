@@ -1,0 +1,18 @@
+[
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "privacy.resistFingerprinting",
+        "value": true
+    },
+
+    {
+        "title": "",
+        "summary": "",
+        "type": "defaultPref",
+        "key": "privacy.resistFingerprinting.block_mozAddonManager",
+        "value": true
+    }
+]
