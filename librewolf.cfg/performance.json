@@ -1,152 +1,133 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "layout.frame_rate.precise",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "webgl.force-enabled",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "layers.acceleration.force-enabled",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "gfx.direct2d.disabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "layers.acceleration.disabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "html5.offmainthread",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "layers.offmainthreadcomposition.enabled",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "layers.offmainthreadcomposition.async-animations",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "layers.async-video.enabled",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "browser.tabs.animate",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "webgl.disabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "webgl.enable-webgl2",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "webgl.min_capability_mode",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "pdfjs.enableWebGL",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "webgl.disable-extensions",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "webgl.disable-fail-if-major-performance-caveat",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "webgl.enable-debug-renderer-info",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "javascript.options.shared_memory",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.serviceWorkers.enabled",
         "value": false

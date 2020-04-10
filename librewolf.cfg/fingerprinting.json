@@ -1,16 +1,14 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "privacy.resistFingerprinting",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "privacy.resistFingerprinting.block_mozAddonManager",
         "value": true

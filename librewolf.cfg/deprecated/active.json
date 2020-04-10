@@ -1,312 +1,273 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.onboarding.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "devtools.webide.autoinstallADBHelper",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.mozTCPSocket.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "app.update.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.bookmarks.max_backups",
         "value": 2
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.casting.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.newtabpage.activity-stream.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.newtabpage.directory.ping",
         "value": "data:text/plain,"
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.newtabpage.directory.source",
         "value": "data:text/plain,"
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.newtabpage.enhanced",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.pocket.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.selfsupport.url",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.startup.homepage_override.mstone",
         "value": "ignore"
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "camera.control.face_detection.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "datareporting.healthreport.about.reportUrl",
         "value": "data:,"
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "datareporting.healthreport.service.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "device.sensors.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "devtools.webide.autoinstallFxdtAdapters",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "devtools.webide.adaptersAddonURL",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.enable_resource_timing",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.flyweb.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.gamepad.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.netinfo.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.push.udp.wakeupEnabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "dom.telephony.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "extensions.shield-recipe-client.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "loop.logDomains",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "media.video_stats.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.websocket.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "reader.parse-on-load.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "security.xpconnect.plugin.unrestricted",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "social.directories",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "social.remote-install.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "social.whitelist",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "security.ssl3.ecdhe_ecdsa_rc4_128_sha",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "security.ssl3.ecdhe_rsa_rc4_128_sha",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "security.ssl3.rsa_rc4_128_md5",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "security.ssl3.rsa_rc4_128_sha",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "security.tls.unrestricted_rc4_fallback",
         "value": false

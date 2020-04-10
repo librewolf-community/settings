@@ -1,48 +1,42 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.trr.mode",
         "value": 5
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.trr.bootstrapAddress",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.trr.uri",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.dns.disableIPv6",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.dns.disablePrefetch",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.dns.disablePrefetchFromHTTPS",
         "value": true

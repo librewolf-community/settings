@@ -1,16 +1,14 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.sessionstore.privacy_level",
         "value": 2
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.sessionstore.interval",
         "value": 60000

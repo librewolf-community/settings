@@ -1,8 +1,7 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "media.autoplay.default",
         "value": 2

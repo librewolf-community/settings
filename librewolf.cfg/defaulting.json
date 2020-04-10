@@ -1,200 +1,175 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "privacy.spoof_english",
         "value": 2
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.http.referer.defaultPolicy",
         "value": 3
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.http.referer.defaultPolicy.pbmode",
         "value": 2
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "privacy.userContext.ui.enabled",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "privacy.userContext.enabled",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "privacy.userContext.longPressBehavior",
         "value": 2
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "browser.download.autohideButton",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "accessibility.typeaheadfind",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "clipboard.autocopy",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "layout.spellcheckDefault",
         "value": 2
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "browser.tabs.closeWindowWithLastTab",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "general.autoScroll",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "pdfjs.disabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "dom.disable_open_during_load",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "browser.link.open_newwindow",
         "value": 3
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "browser.link.open_newwindow.restriction",
         "value": 0
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.proxy.autoconfig_url",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.proxy.autoconfig_url.include_path",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.proxy.socks_remote_dns",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.proxy.socks_version",
         "value": 5
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "browser.tabs.loadBookmarksInTabs",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "devtools.debugger.remote-enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "devtools.chrome.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "general.useragent.site_specific_overrides",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "extensions.ui.experiment.hidden",
         "value": false

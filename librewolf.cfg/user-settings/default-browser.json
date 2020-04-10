@@ -1,8 +1,7 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.shell.checkDefaultBrowser",
         "value": false

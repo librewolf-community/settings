@@ -1,48 +1,42 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.cookie.cookieBehavior",
         "value": 1
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.cookie.lifetimePolicy",
         "value": 2
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.cookie.same-site.enabled",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.cookie.leave-secure-alone",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "defaultPref",
         "key": "network.cookie.thirdparty.sessionOnly",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "network.cookie.thirdparty.nonsecureSessionOnly",
         "value": true

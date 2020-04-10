@@ -1,96 +1,84 @@
 [
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "privacy.trackingprotection.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "privacy.trackingprotection.annotate_channels",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "privacy.trackingprotection.lower_network_priority",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "privacy.trackingprotection.pbmode.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "urlclassifier.trackingTable",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "pref.privacy.disable_button.change_blocklist",
         "value": true
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.contentblocking.reportBreakage.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.contentblocking.reportBreakage.url",
         "value": ""
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.contentblocking.rejecttrackers.reportBreakage.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.contentblocking.rejecttrackers.ui.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.contentblocking.trackingprotection.control-center.ui.enabled",
         "value": false
     },
 
     {
-        "title": "",
-        "summary": "",
+        "comments": "",
         "type": "lockPref",
         "key": "browser.contentblocking.trackingprotection.ui.enabled",
         "value": false
