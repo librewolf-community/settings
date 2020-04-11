@@ -1,2 +1,33 @@
 [
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "widget.content.gtk-theme-override",
+        "value": "Adwaita:light"
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.devedition.theme.enabled",
+        "value": true
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "devtools.theme",
+        "value": "dark"
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.devedition.theme.showCustomizeButton",
+        "value": true
+    }
 ]

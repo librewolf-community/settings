@@ -82,5 +82,85 @@
         "type": "lockPref",
         "key": "browser.contentblocking.trackingprotection.ui.enabled",
         "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.global-toggle.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.rejecttrackers.ui.recommended",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.fastblock.ui.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.fastblock.control-center.ui.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.allowlist.annotations.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.allowlist.storage.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "pref.privacy.disable_button.tracking_protection_exceptions",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.rejecttrackers.control-center.ui.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.ui.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.contentblocking.enabled",
+        "value": false
     }
 ]

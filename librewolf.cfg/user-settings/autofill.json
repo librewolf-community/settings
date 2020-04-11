@@ -40,5 +40,21 @@
         "type": "lockPref",
         "key": "signon.autofillForms.http",
         "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.autoFill",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.urlbar.autoFill.typed",
+        "value": false
     }
 ]

@@ -103,5 +103,13 @@
         "type": "lockPref",
         "key": "media.gmp-manager.certs.1.commonName",
         "value": ""
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "media.peerconnection.video.h264",
+        "value": true
     }
 ]

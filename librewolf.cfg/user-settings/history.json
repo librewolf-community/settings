@@ -64,7 +64,7 @@
     },
 
     {
-        "comments": "",
+        "comments": "Offline Website Data",
         "type": "defaultPref",
         "key": "privacy.cpd.offlineApps",
         "value": true
@@ -110,5 +110,46 @@
         "type": "defaultPref",
         "key": "privacy.history.custom",
         "value": true
+    },
+
+    {
+        "enabled": false,
+        "comments": "Clear session data",
+        "type": "defaultPref",
+        "key": "privacy.cpd.openWindows",
+        "value": true
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "defaultPref",
+        "key": "privacy.clearOnShutdown.openWindows",
+        "value": true
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "defaultPref",
+        "key": "privacy.sanitize.pending",
+        "value": "[{\"id\":\"shutdown\",\"itemsToClear\":[\"cache\",\"cookies\",\"history\",\"formdata\",\"downloads\"],\"options\":{}}]"
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "notes": "Hidden pref",
+        "type": "lockPref",
+        "key": "permissions.memory_only",
+        "value": true
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "browser.formfill.expire_days",
+        "value": 0
     }
 ]
