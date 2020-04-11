@@ -1,15 +1,3 @@
-lockPref("privacy.trackingprotection.enabled", false);
-lockPref("privacy.trackingprotection.annotate_channels", false);
-lockPref("privacy.trackingprotection.lower_network_priority", false);
-lockPref("privacy.trackingprotection.pbmode.enabled", false);
-lockPref("urlclassifier.trackingTable", "");
-lockPref("pref.privacy.disable_button.change_blocklist", true);
-lockPref("browser.contentblocking.reportBreakage.enabled", false);
-lockPref("browser.contentblocking.reportBreakage.url", "");
-lockPref("browser.contentblocking.rejecttrackers.reportBreakage.enabled", false);
-lockPref("browser.contentblocking.rejecttrackers.ui.enabled", false);
-lockPref("browser.contentblocking.trackingprotection.control-center.ui.enabled", false);
-lockPref("browser.contentblocking.trackingprotection.ui.enabled", false);
 //lockPref("browser.contentblocking.global-toggle.enabled", false);
 //lockPref("browser.contentblocking.rejecttrackers.ui.recommended", false);
 //lockPref("browser.contentblocking.fastblock.ui.enabled", false);

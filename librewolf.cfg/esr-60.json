@@ -1,7 +1,7 @@
 [
 
     {
-        "comments": "",
+        "comments": "Geolocation",
         "type": "lockPref",
         "key": "browser.search.countryCode",
         "value": "US"
@@ -15,10 +15,21 @@
     },
 
     {
-        "comments": "",
+        "comments": "Disable Mozilla telemetry/experiments",
         "type": "lockPref",
         "key": "experiments.enabled",
-        "value": false
+        "value": false,
+        "references": [
+            "https://wiki.mozilla.org/Platform/Features/Telemetry",
+            "https://wiki.mozilla.org/Privacy/Reviews/Telemetry",
+            "https://wiki.mozilla.org/Telemetry",
+            "https://www.mozilla.org/en-US/legal/privacy/firefox.html#telemetry",
+            "https://support.mozilla.org/t5/Firefox-crashes/Mozilla-Crash-Reporter/ta-p/1715",
+            "https://wiki.mozilla.org/Security/Reviews/Firefox6/ReviewNotes/telemetry",
+            "https://gecko.readthedocs.io/en/latest/browser/experiments/experiments/manifest.html",
+            "https://wiki.mozilla.org/Telemetry/Experiments",
+            "https://support.mozilla.org/en-US/questions/1197144"
+        ]
     },
 
     {
@@ -36,37 +47,53 @@
     },
 
     {
-        "comments": "",
+        "comments": "Disable remote JAR files being opened, regardless of content type (FF42+)",
         "type": "lockPref",
         "key": "network.jar.block-remote-files",
-        "value": true
+        "value": true,
+        "references": [
+            "https://bugzilla.mozilla.org/1173171",
+            "https://www.fxsitecompat.com/en-CA/docs/2015/jar-protocol-support-has-been-disabled-by-default/",
+            "https://bugzilla.mozilla.org/1427726"
+        ]
     },
 
     {
-        "comments": "",
+        "comments": "Disable JAR from opening Unsafe File Types",
         "type": "lockPref",
         "key": "network.jar.open-unsafe-types",
-        "value": false
+        "value": false,
+        "references": [
+            "https://bugzilla.mozilla.org/1427726"
+        ]
     },
 
     {
-        "comments": "",
+        "comments": "Disable Java NPAPI plugin",
         "type": "lockPref",
         "key": "plugin.state.java",
         "value": 0
     },
 
     {
-        "comments": "",
+        "comments": "Enable Kinto blocklist updates (FF50+)",
+        "notes": "As Firefox transitions to Kinto, the blocklists have been broken down into entries for certs to be revoked, extensions and plugins to be disabled, and gfx environments that cause problems or crashes",
         "type": "lockPref",
         "key": "services.blocklist.update_enabled",
-        "value": false
+        "value": false,
+        "references": [
+            "https://wiki.mozilla.org/Firefox/Kinto#Specifications",
+            "https://bugzilla.mozilla.org/1458917"
+        ]
     },
 
     {
-        "comments": "",
+        "comments": "Disable 'Savant' Shield study (FF61+)",
         "type": "lockPref",
         "key": "shield.savant.enabled",
-        "value": false
+        "value": false,
+        "references": [
+            "https://bugzilla.mozilla.org/1457226"
+        ]
     }
 ]

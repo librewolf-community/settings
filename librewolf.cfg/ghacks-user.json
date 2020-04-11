@@ -9,6 +9,7 @@
 
     {
         "comments": "",
+        "notes": "Hidden preference",
         "type": "lockPref",
         "key": "toolkit.coverage.opt-out",
         "value": true
@@ -16,6 +17,7 @@
 
     {
         "comments": "",
+        "notes": "Do not disable",
         "type": "lockPref",
         "key": "browser.download.manager.addToRecentDocs",
         "value": false
@@ -23,6 +25,7 @@
 
     {
         "comments": "",
+        "notes": "Do not disable",
         "type": "lockPref",
         "key": "browser.download.hide_plugins_without_extensions",
         "value": false
@@ -58,6 +61,7 @@
 
     {
         "comments": "",
+        "notes": "Hidden preference",
         "type": "lockPref",
         "key": "extensions.enabledScopes",
         "value": 5
@@ -65,6 +69,7 @@
 
     {
         "comments": "",
+        "notes": "Tor value must be 0",
         "type": "lockPref",
         "key": "extensions.autoDisableScopes",
         "value": 11
@@ -114,6 +119,7 @@
 
     {
         "comments": "",
+        "notes": "Hidden preference",
         "type": "lockPref",
         "key": "ui.use_standins_for_native_colors",
         "value": true
@@ -121,6 +127,7 @@
 
     {
         "comments": "",
+        "notes": "Revoked certificates",
         "type": "lockPref",
         "key": "services.blocklist.onecrl.collection",
         "value": ""
@@ -184,6 +191,7 @@
 
     {
         "comments": "",
+        "notes": "Hidden preference",
         "type": "lockPref",
         "key": "network.file.disable_unc_paths",
         "value": true
@@ -191,6 +199,7 @@
 
     {
         "comments": "",
+        "notes": "Hidden preference",
         "type": "lockPref",
         "key": "network.gio.supported-protocols",
         "value": ""
@@ -219,6 +228,7 @@
 
     {
         "comments": "",
+        "notes": "Deprecated Active",
         "type": "lockPref",
         "key": "network.auth.subresource-img-cross-origin-http-auth-allow",
         "value": false
@@ -352,6 +362,7 @@
 
     {
         "comments": "",
+        "notes": "Bookmarks toolbar",
         "type": "lockPref",
         "key": "dom.disable_window_open_feature.personalbar",
         "value": true
@@ -366,6 +377,7 @@
 
     {
         "comments": "",
+        "notes": "Status bar",
         "type": "lockPref",
         "key": "dom.disable_window_open_feature.status",
         "value": true

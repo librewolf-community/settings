@@ -268,19 +268,3 @@
 //lockPref("security.ssl3.ecdhe_ecdsa_aes_128_sha", false);
 //lockPref("security.ssl3.ecdhe_rsa_aes_128_sha", false);
 //lockPref("urlclassifier.trackingTable", "test-track-simple,base-track-digest256");
-
-// - Disabled - Section ON ------------------------------------------------------------------
-
-// Pref : Tor settings
-// This browser is not meant for tor
-// Enabling those settings for user torifying their whole connection
-lockPref("network.dns.blockDotOnion", true);
-lockPref("network.http.referer.hideOnionSource", true);
-
-// Pref : 1603 : CROSS ORIGIN: control when to send a referer
-// 0=always (default), 1=only if base domains match, 2=only if hosts match
-// Can break some important site... (payment... )
-lockPref("network.http.referer.XOriginPolicy", 1);
-
-// Pref : Only allow TLS 1.[0-3]
-lockPref("security.tls.version.max", 4); // 4 = allow up to and including TLS 1.3
