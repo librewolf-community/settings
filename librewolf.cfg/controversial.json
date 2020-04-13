@@ -8,9 +8,49 @@
     },
 
     {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "dom.indexedDB.logging.details",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "dom.indexedDB.logging.enabled",
+        "value": false
+    },
+
+    {
         "comments": "",
         "type": "lockPref",
         "key": "dom.w3c_pointer_events.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "network.http.spdy.enabled",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "network.http.spdy.enabled.deps",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "lockPref",
+        "key": "network.http.spdy.enabled.http2",
         "value": false
     }
 ]

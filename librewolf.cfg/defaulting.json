@@ -8,6 +8,15 @@
     },
 
     {
+        "enabled": false,
+        "comments": "",
+        "notes": "This makes lang windows unusable",
+        "type": "defaultPref",
+        "key": "intl.accept_languages",
+        "value": "en-US, en"
+    },
+
+    {
         "comments": "",
         "type": "defaultPref",
         "key": "network.http.referer.defaultPolicy",
@@ -82,6 +91,14 @@
         "type": "defaultPref",
         "key": "general.autoScroll",
         "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "defaultPref",
+        "key": "network.http.sendRefererHeader",
+        "value": 1
     },
 
     {
@@ -172,6 +189,22 @@
         "comments": "",
         "type": "defaultPref",
         "key": "extensions.ui.experiment.hidden",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "defaultPref",
+        "key": "extensions.ui.dictionary.hidden",
+        "value": false
+    },
+
+    {
+        "enabled": false,
+        "comments": "",
+        "type": "defaultPref",
+        "key": "extensions.ui.locale.hidden",
         "value": false
     }
 ]
