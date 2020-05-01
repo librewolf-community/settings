@@ -1,16 +1,21 @@
-[
+{
+    "name": "Session",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
 
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.sessionstore.privacy_level",
-        "value": 2
-    },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.sessionstore.privacy_level",
+            "value": 2
+        },
 
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.sessionstore.interval",
-        "value": 60000
-    }
-]
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.sessionstore.interval",
+            "value": 60000
+        }
+    ]
+}

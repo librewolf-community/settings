@@ -1,86 +1,79 @@
-[
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.navigator.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.navigator.video.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.getusermedia.browser.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.getusermedia.screensharing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.getusermedia.audiocapture.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.use_document_iceservers",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.identity.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.identity.timeout",
-        "value": 1
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.turn.disable",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.ice.tcp",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.ice.default_address_only",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.ice.no_host",
-        "value": true
-    }
-]
+{
+    "name": "WebRTC",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.navigator.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.navigator.video.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.getusermedia.browser.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.getusermedia.screensharing.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.getusermedia.audiocapture.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.use_document_iceservers",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.identity.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.identity.timeout",
+            "value": 1
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.turn.disable",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.ice.tcp",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.ice.default_address_only",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.ice.no_host",
+            "value": true
+        }
+    ]
+}

@@ -1,448 +1,391 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.coverage.endpoint.base",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "notes": "Hidden preference",
-        "type": "lockPref",
-        "key": "toolkit.coverage.opt-out",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Do not disable",
-        "type": "lockPref",
-        "key": "browser.download.manager.addToRecentDocs",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "notes": "Do not disable",
-        "type": "lockPref",
-        "key": "browser.download.hide_plugins_without_extensions",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "webchannel.allowObject.urlWhitelist",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.cache.offline.insecure.enable",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.http.redirection-limit",
-        "value": 10
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "offline-apps.allow_by_default",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "notes": "Hidden preference",
-        "type": "lockPref",
-        "key": "extensions.enabledScopes",
-        "value": 5
-    },
-
-    {
-        "comments": "",
-        "notes": "Tor value must be 0",
-        "type": "lockPref",
-        "key": "extensions.autoDisableScopes",
-        "value": 11
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "xpinstall.whitelist.required",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.push.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.push.connection.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.push.serverURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.push.userAgentID",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.data_uri.block_toplevel_data_uri_navigations",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Hidden preference",
-        "type": "lockPref",
-        "key": "ui.use_standins_for_native_colors",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Revoked certificates",
-        "type": "lockPref",
-        "key": "services.blocklist.onecrl.collection",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.addons.collection",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.plugins.collection",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.gfx.collection",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.startup.blankWindow",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.event.highrestimestamp.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "privacy.trackingprotection.introURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.http.altsvc.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.http.altsvc.oe",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "notes": "Hidden preference",
-        "type": "lockPref",
-        "key": "network.file.disable_unc_paths",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Hidden preference",
-        "type": "lockPref",
-        "key": "network.gio.supported-protocols",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.usepreloadedtopurls.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.speculativeConnect.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.oneOffSearches",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "notes": "Deprecated Active",
-        "type": "lockPref",
-        "key": "network.auth.subresource-img-cross-origin-http-auth-allow",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.shell.shortcutFavicons",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "alerts.showFavicons",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.ssl.require_safe_negotiation",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.tls.enable_0rtt_data",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.xul.error_pages.expert_bad_cert",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "font.blacklist.underline_offset",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gfx.font_rendering.graphite.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.http.referer.XOriginTrimmingPolicy",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.http.referer.spoofSource",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "plugin.default.state",
-        "value": 1
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "plugin.defaultXpi.state",
-        "value": 1
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "canvas.capturestream.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.imagecapture.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gfx.offscreencanvas.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.close",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.location",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.menubar",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.minimizable",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Bookmarks toolbar",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.personalbar",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.resizable",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Status bar",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.status",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.titlebar",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_open_feature.toolbar",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_window_move_resize",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.IntersectionObserver.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "accessibility.force_disabled",
-        "value": 1
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.uitour.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.uitour.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "middlemouse.contentLoadURL",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "permissions.manager.defaultsUrl",
-        "value": ""
-    }
-]
+{
+    "name": "ghacks user.js",
+    "subcategory": "",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.coverage.endpoint.base",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "notes": "Hidden preference",
+            "type": "lockPref",
+            "key": "toolkit.coverage.opt-out",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Do not disable",
+            "type": "lockPref",
+            "key": "browser.download.manager.addToRecentDocs",
+            "value": false
+        },
+        {
+            "comments": "",
+            "notes": "Do not disable",
+            "type": "lockPref",
+            "key": "browser.download.hide_plugins_without_extensions",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "webchannel.allowObject.urlWhitelist",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.cache.offline.insecure.enable",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.http.redirection-limit",
+            "value": 10
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "offline-apps.allow_by_default",
+            "value": false
+        },
+        {
+            "comments": "",
+            "notes": "Hidden preference",
+            "type": "lockPref",
+            "key": "extensions.enabledScopes",
+            "value": 5
+        },
+        {
+            "comments": "",
+            "notes": "Tor value must be 0",
+            "type": "lockPref",
+            "key": "extensions.autoDisableScopes",
+            "value": 11
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "xpinstall.whitelist.required",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.push.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.push.connection.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.push.serverURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.push.userAgentID",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.data_uri.block_toplevel_data_uri_navigations",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Hidden preference",
+            "type": "lockPref",
+            "key": "ui.use_standins_for_native_colors",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Revoked certificates",
+            "type": "lockPref",
+            "key": "services.blocklist.onecrl.collection",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.addons.collection",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.plugins.collection",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.gfx.collection",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.startup.blankWindow",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.event.highrestimestamp.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "privacy.trackingprotection.introURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.http.altsvc.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.http.altsvc.oe",
+            "value": false
+        },
+        {
+            "comments": "",
+            "notes": "Hidden preference",
+            "type": "lockPref",
+            "key": "network.file.disable_unc_paths",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Hidden preference",
+            "type": "lockPref",
+            "key": "network.gio.supported-protocols",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.usepreloadedtopurls.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.speculativeConnect.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.oneOffSearches",
+            "value": false
+        },
+        {
+            "comments": "",
+            "notes": "Deprecated Active",
+            "type": "lockPref",
+            "key": "network.auth.subresource-img-cross-origin-http-auth-allow",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.shell.shortcutFavicons",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "alerts.showFavicons",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.ssl.require_safe_negotiation",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.tls.enable_0rtt_data",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.xul.error_pages.expert_bad_cert",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "font.blacklist.underline_offset",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gfx.font_rendering.graphite.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.http.referer.XOriginTrimmingPolicy",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.http.referer.spoofSource",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "plugin.default.state",
+            "value": 1
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "plugin.defaultXpi.state",
+            "value": 1
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "canvas.capturestream.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.imagecapture.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gfx.offscreencanvas.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.close",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.location",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.menubar",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.minimizable",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Bookmarks toolbar",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.personalbar",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.resizable",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Status bar",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.status",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.titlebar",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_open_feature.toolbar",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_window_move_resize",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.IntersectionObserver.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "accessibility.force_disabled",
+            "value": 1
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.uitour.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.uitour.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "middlemouse.contentLoadURL",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "permissions.manager.defaultsUrl",
+            "value": ""
+        }
+    ]
+}

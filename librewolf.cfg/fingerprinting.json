@@ -1,16 +1,19 @@
-[
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.resistFingerprinting",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.resistFingerprinting.block_mozAddonManager",
-        "value": true
-    }
-]
+{
+    "name": "Fingerprinting",
+    "subcategory": "",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.resistFingerprinting",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.resistFingerprinting.block_mozAddonManager",
+            "value": true
+        }
+    ]
+}

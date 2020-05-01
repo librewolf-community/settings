@@ -1,1108 +1,955 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.performance.recording.ui-base-url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.irc.0.uriTemplate",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.ircs.0.uriTemplate",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.coverage.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.webapi.testing",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.asrouter.userprefs.cfr",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.htmlaboutaddons.recommendations.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.asrouter.providers.cfr",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.asrouter.providers.cfr-fxa",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.asrouter.providers.onboarding",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.asrouter.providers.snippets",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.onboarding.notification.tour-ids-queue",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "lightweightThemes.getMoreURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.gcli.lodashSrc",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.decoder-doctor.new-issue-endpoint",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "identity.sync.tokenserver.uri",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.webide.templatesURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.ping-centre.production.endpoint",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.translation.engine",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.trr.confirmationNS",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.mailto.1.name",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.irc.0.name",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.ircs.0.name",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.mailto.0.name",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.lastversion",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.lists.base",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.lists.content",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.advisoryName",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.advisoryName",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.lists",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "identity.fxaccounts.remote.root",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.settings.server",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.fxa.privacyURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.fxa.termsURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.addons.signer",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.gfx.signer",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.onecrl.signer",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.pinning.signer",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.blocklist.plugins.signer",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.settings.default_signer",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "accessibility.support.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.normandy.shieldLearnMoreUrl",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.productInfo.baseURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.support.baseURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.chrome.errorReporter.infoURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.dictionaries.download.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.geolocation.warning.infoURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.search.searchEnginesURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.uitour.themeOrigin",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.webide.adbAddonURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.getAddons.compatOverides.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.getAddons.get.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.getAddons.langpacks.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.getAddons.link.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.getAddons.search.browseURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.getAddons.themes.browseURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.addons.trustedSourceHostnames",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.datacollection.infoURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "xpinstall.signatures.devInfoURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.fxaccounts.endpoint",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.update.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.section.topstories.options",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "lightweightThemes.recommendedThemes",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.maxResyncs",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.telemetry.maxPayloadCount",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.addons.ignoreUserEnabledChanges",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.addons",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.addresses",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.bookmarks",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.bookmarks.buffer",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.creditcards",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.creditcards.available",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.history",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.passwords",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.prefs",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.tabs",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.log.appender.file.logOnError",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.log.appender.file.logOnSuccess",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.log.cryptoDebug",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.sendVersionInfo",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.syncedTabs.showRemoteIcons",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.accessibility.blockautorefresh",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.accessibility.browsewithcaret",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.accessibility.typeaheadfind",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.accessibility.typeaheadfind.linksonly",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.addons.ignoreUserEnabledChanges",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.contentblocking.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.ctrlTab.recentlyUsedOrder",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.download.useDownloadDir",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.formfill.enable",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.link.open_newwindow",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.newtabpage.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.newtabpage.pinned",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeVisited",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeBookmarks",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.offline-apps.notify",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.search.update",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.sessionstore.restore_on_demand",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.startup.homepage",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.startup.page",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.tabs.loadInBackground",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.tabs.warnOnClose",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.tabs.warnOnOpen",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.autocomplete.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.matchBuckets",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.maxRichResults",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.suggest.bookmark",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.suggest.history",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.suggest.history.onlyTyped",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.suggest.openpage",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.urlbar.suggest.searches",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.dom.disable_open_during_load",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.dom.disable_window_flip",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.dom.disable_window_move_resize",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.dom.event.contextmenu.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.extensions.personas.current",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.extensions.update.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.intl.accept_languages",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.layout.spellcheckDefault",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.lightweightThemes.selectedThemeID",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.lightweightThemes.usedThemes",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.network.cookie.cookieBehavior",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.network.cookie.lifetimePolicy",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.network.cookie.thirdparty.sessionOnly",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.permissions.default.image",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.pref.advanced.images.disable_button.view_image",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.pref.advanced.javascript.disable_button.advanced",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.pref.downloads.disable_button.edit_actions",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.pref.privacy.disable_button.cookie_exceptions",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.cache",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.cookies",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.downloads",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.formdata",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.history",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.offlineApps",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.sessions",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.clearOnShutdown.siteSettings",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.donottrackheader.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.reduceTimerPrecision",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.resistFingerprinting",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.jitter",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.microseconds",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.sanitize.sanitizeOnShutdown",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.trackingprotection.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.privacy.trackingprotection.pbmode.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.security.OCSP.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.security.OCSP.require",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.security.default_personal_cert",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.security.tls.version.max",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.security.tls.version.min",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.services.sync.syncedTabs.showRemoteIcons",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.spellchecker.dictionary",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.xpinstall.whitelist.required",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.chrome.errorReporter.publicKey",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "prio.publicKeyA",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "prio.publicKeyB",
-        "value": ""
-    }
-]
+{
+    "name": "Ijwytsu – I just want you to shut up",
+    "subcategory": "",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.performance.recording.ui-base-url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.irc.0.uriTemplate",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.ircs.0.uriTemplate",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.coverage.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.webapi.testing",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.userprefs.cfr",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.htmlaboutaddons.recommendations.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.providers.cfr",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.providers.cfr-fxa",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.providers.onboarding",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.providers.snippets",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.onboarding.notification.tour-ids-queue",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "lightweightThemes.getMoreURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.gcli.lodashSrc",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.decoder-doctor.new-issue-endpoint",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "identity.sync.tokenserver.uri",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.webide.templatesURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.ping-centre.production.endpoint",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.translation.engine",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.trr.confirmationNS",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.mailto.1.name",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.irc.0.name",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.ircs.0.name",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.mailto.0.name",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.lastversion",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.lists.base",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.lists.content",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.advisoryName",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.advisoryName",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.lists",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "identity.fxaccounts.remote.root",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.settings.server",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.fxa.privacyURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.fxa.termsURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.addons.signer",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.gfx.signer",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.onecrl.signer",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.pinning.signer",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.blocklist.plugins.signer",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.settings.default_signer",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "accessibility.support.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.normandy.shieldLearnMoreUrl",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.productInfo.baseURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.support.baseURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.chrome.errorReporter.infoURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.dictionaries.download.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.geolocation.warning.infoURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.search.searchEnginesURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.uitour.themeOrigin",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.webide.adbAddonURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.getAddons.compatOverides.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.getAddons.get.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.getAddons.langpacks.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.getAddons.link.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.getAddons.search.browseURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.getAddons.themes.browseURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.addons.trustedSourceHostnames",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.datacollection.infoURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "xpinstall.signatures.devInfoURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.fxaccounts.endpoint",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.update.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.section.topstories.options",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "lightweightThemes.recommendedThemes",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.maxResyncs",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.telemetry.maxPayloadCount",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.addons.ignoreUserEnabledChanges",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.addons",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.addresses",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.bookmarks",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.bookmarks.buffer",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.creditcards",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.creditcards.available",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.history",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.passwords",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.prefs",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.tabs",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.log.appender.file.logOnError",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.log.appender.file.logOnSuccess",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.log.cryptoDebug",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.sendVersionInfo",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.syncedTabs.showRemoteIcons",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.accessibility.blockautorefresh",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.accessibility.browsewithcaret",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.accessibility.typeaheadfind",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.accessibility.typeaheadfind.linksonly",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.addons.ignoreUserEnabledChanges",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.contentblocking.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.ctrlTab.recentlyUsedOrder",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.download.useDownloadDir",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.formfill.enable",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.link.open_newwindow",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.newtabpage.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.newtabpage.pinned",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeVisited",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeBookmarks",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.offline-apps.notify",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.search.update",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.sessionstore.restore_on_demand",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.startup.homepage",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.startup.page",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.tabs.loadInBackground",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.tabs.warnOnClose",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.tabs.warnOnOpen",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.autocomplete.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.matchBuckets",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.maxRichResults",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.suggest.bookmark",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.suggest.history",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.suggest.history.onlyTyped",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.suggest.openpage",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.urlbar.suggest.searches",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.dom.disable_open_during_load",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.dom.disable_window_flip",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.dom.disable_window_move_resize",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.dom.event.contextmenu.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.extensions.personas.current",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.extensions.update.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.intl.accept_languages",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.layout.spellcheckDefault",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.lightweightThemes.selectedThemeID",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.lightweightThemes.usedThemes",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.network.cookie.cookieBehavior",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.network.cookie.lifetimePolicy",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.network.cookie.thirdparty.sessionOnly",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.permissions.default.image",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.pref.advanced.images.disable_button.view_image",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.pref.advanced.javascript.disable_button.advanced",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.pref.downloads.disable_button.edit_actions",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.pref.privacy.disable_button.cookie_exceptions",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.cache",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.cookies",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.downloads",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.formdata",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.history",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.offlineApps",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.sessions",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.clearOnShutdown.siteSettings",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.donottrackheader.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.reduceTimerPrecision",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.resistFingerprinting",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.jitter",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.microseconds",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.sanitize.sanitizeOnShutdown",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.trackingprotection.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.privacy.trackingprotection.pbmode.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.security.OCSP.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.security.OCSP.require",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.security.default_personal_cert",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.security.tls.version.max",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.security.tls.version.min",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.services.sync.syncedTabs.showRemoteIcons",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.spellchecker.dictionary",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.xpinstall.whitelist.required",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.chrome.errorReporter.publicKey",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "prio.publicKeyA",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "prio.publicKeyB",
+            "value": ""
+        }
+    ]
+}

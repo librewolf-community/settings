@@ -1,44 +1,43 @@
-[
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "network.cookie.cookieBehavior",
-        "value": 1
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "network.cookie.lifetimePolicy",
-        "value": 2
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.cookie.same-site.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.cookie.leave-secure-alone",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "network.cookie.thirdparty.sessionOnly",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.cookie.thirdparty.nonsecureSessionOnly",
-        "value": true
-    }
-]
+{
+    "name": "Cookies",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "network.cookie.cookieBehavior",
+            "value": 1
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "network.cookie.lifetimePolicy",
+            "value": 2
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.cookie.same-site.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.cookie.leave-secure-alone",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "network.cookie.thirdparty.sessionOnly",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.cookie.thirdparty.nonsecureSessionOnly",
+            "value": true
+        }
+    ]
+}

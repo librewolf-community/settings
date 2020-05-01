@@ -1,2054 +1,1790 @@
-[
-
-    {
-        "comments": "Onboarding tour disabled because of included telemetry",
-        "notes": "This extension has already been removed. This setting is here to disable it just in case it comes back or for users using the script outside the bundle.",
-        "type": "lockPref",
-        "key": "browser.onboarding.notification.finished",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.onboarding.tour.onboarding-tour-customize.completed",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.onboarding.tour.onboarding-tour-performance.completed",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.onboarding.telemetry.logged",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.engine.addresses.available",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.bookmarks.restore_default_bookmarks",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "pdfjs.previousHandler.alwaysAskBeforeHandling",
-        "value": true
-    },
-
-    {
-        "comments": "Caching for integrated PDF",
-        "type": "lockPref",
-        "key": "pdfjs.enabledCache.state",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "pref.general.disable_button.default_browser",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "pref.privacy.disable_button.view_passwords",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "identity.mobilepromo.android",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.systemAddon.update.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "datareporting.healthreport.infoURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.daysBeforeHidingSuggestionsPrompt",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.searchSuggestionsChoice",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.timesBeforeHidingSuggestionsHint",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.shell.didSkipDefaultBrowserCheckOnFirstRun",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.feedback.baseURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.normandy.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.normandy.api_url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.normandy.first_run",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.normandy.user_id",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.releaseNotesURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.update.auto",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.update.autoUpdateDefault",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.update.staging.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.update.silent",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.update.lastUpdateTime.telemetry_modules_ping",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.update.url.details",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.update.url.manual",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "app.vendorURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "breakpad.reportURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.chrome.errorReporter.submitUrl",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.chrome.errorReporter.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.ping-centre.staging.endpoint",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.ping-centre.telemetry",
-        "value": false
-    },
-
-    {
-        "comments": "Google Safe Browsing (blocks dangerous and deceptive contents)",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.id",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.pver",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.pver",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.allowOverride",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.blockedURIs.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.downloads.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.downloads.remote.block_dangerous",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.downloads.remote.block_dangerous_host",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.downloads.remote.block_potentially_unwanted",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.downloads.remote.block_uncommon",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.downloads.remote.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.downloads.remote.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.malware.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.passwords.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.phishing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.advisoryURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.dataSharing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.dataSharingURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.gethashURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.lists",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.reportMalwareMistakeURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.reportPhishMistakeURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.reportURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.updateURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.lastupdatetime",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google4.nextupdatetime",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.advisoryURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.gethashURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.lastupdatetime",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.lists",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.nextupdatetime",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.pver",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.reportMalwareMistakeURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.reportPhishMistakeURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.reportURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.google.updateURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.gethashURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.lastupdatetime",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.nextupdatetime",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.provider.mozilla.updateURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.safebrowsing.reportPhishURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.search.suggest.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "captivedetect.canonicalURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "datareporting.policy.firstRunURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.devedition.promo.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.devices.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.gcli.imgurUploadURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.gcli.jquerySrc",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.gcli.underscoreSrc",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.telemetry.supported_performance_marks",
-        "value": ""
-    },
-
-    {
-        "enabled": false,
-        "comments": "Fix ESR Devtools",
-        "type": "lockPref",
-        "key": "devtools.telemetry.tools.opened.version",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.battery.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.permissions.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Maximum popups that may be launched at the same time",
-        "type": "lockPref",
-        "key": "dom.popup_maximum",
-        "value": 4
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.registerProtocolHandler.insecure.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.blocklist.detailsURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.blocklist.itemURL",
-        "value": ""
-    },
-
-    {
-        "comments": "Block list url disabled",
-        "notes": "gHacks tunes this to minimize privacy issues. It is completely disabled here.",
-        "type": "lockPref",
-        "key": "extensions.blocklist.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.update.background.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.getAddons.showPane",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.webservice.discoverURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.mailto.0.uriTemplate",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.mailto.1.uriTemplate",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "gecko.handlerService.schemes.webcal.0.uriTemplate",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "geo.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "geo.wifi.uri",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "identity.fxaccounts.auth.uri",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "identity.fxaccounts.remote.oauth.uri",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "identity.fxaccounts.remote.profile.uri",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "identity.mobilepromo.ios",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "layout.css.visited_links_enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "lpbmode.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "mailnews.messageid_browser.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "mailnews.mx_service_url",
-        "value": ""
-    },
-
-    {
-        "comments": "Disable predictor / prefetching",
-        "notes": "Network predictor load pages before they are opened with mouse hover for example",
-        "type": "lockPref",
-        "key": "network.predictor.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.predictor.cleaned-up",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.predictor.enable-prefetch",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "plugins.crash.supportUrl",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.clients.lastSync",
-        "value": "0"
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.clients.lastSyncLocal",
-        "value": "0"
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.declinedEngines",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.globalScore",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.jpake.serverURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.migrated",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.nextSync",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.safebrowsing.downloads.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.safebrowsing.malware.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.safebrowsing.passwords.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.prefs.sync.browser.safebrowsing.phishing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.serverURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.tabs.lastSync",
-        "value": "0"
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "services.sync.tabs.lastSyncLocal",
-        "value": "0"
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "sync.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "sync.jpake.serverURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "sync.serverURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.crashreporter.infoURL",
-        "value": ""
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.archive.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.updatePing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.bhrPing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.cachedClientID",
-        "value": ""
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.firstShutdownPing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.hybridContent.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.infoURL",
-        "value": ""
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.newProfilePing.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.previousBuildID",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "notes": "Setting seems to still exist",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.prompted",
-        "value": 2
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.rejected",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.reportingpolicy.firstRun",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.server",
-        "value": "data:,"
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.server_owner",
-        "value": ""
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.shutdownPingSender.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.unified",
-        "value": false
-    },
-
-    {
-        "comments": "Disable telemetry",
-        "type": "lockPref",
-        "key": "toolkit.telemetry.coverage.opt-out",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "webextensions.storage.sync.serverURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.screenshots.upload-disabled",
-        "value": true
-    },
-
-    {
-        "comments": "Referer: ALL: control the amount of information to send",
-        "notes": "0=send full URI (default), 1=scheme+host+port+path, 2=scheme+host+port",
-        "type": "lockPref",
-        "key": "network.http.referer.trimmingPolicy",
-        "value": 0
-    },
-
-    {
-        "comments": "Close tab",
-        "type": "lockPref",
-        "key": "browser.tabs.closeTabByDblclick",
-        "value": true
-    },
-
-    {
-        "comments": "Disable collection/sending of the health report (healthreport.sqlite*)",
-        "type": "lockPref",
-        "key": "datareporting.healthreport.uploadEnabled",
-        "value": false,
-        "references": [
-            "https://support.mozilla.org/en-US/kb/firefox-health-report-understand-your-browser-perf",
-            "https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/preferences.html"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "datareporting.policy.dataSubmissionEnabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable right-click menu manipulation via JavaScript (disabled)",
-        "type": "lockPref",
-        "key": "dom.event.contextmenu.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable clipboard event detection (onCut/onCopy/onPaste) via Javascript",
-        "notes": "Disabling clipboard events breaks Ctrl+C/X/V copy/cut/paste functionaility in JS-based web applications (Google Docs etc.)",
-        "type": "lockPref",
-        "key": "dom.event.clipboardevents.enabled",
-        "value": false,
-        "references": [
-            "https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/dom.event.clipboardevents.enabled"
-        ]
-    },
-
-    {
-        "comments": "Force Punycode for Internationalized Domain Names",
-        "notes": "CIS Mozilla Firefox 24 ESR v1.0.0 - 3.6",
-        "type": "lockPref",
-        "key": "network.IDN_show_punycode",
-        "value": true,
-        "references": [
-            "http://kb.mozillazine.org/Network.IDN_show_punycode",
-            "https://www.xudongz.com/blog/2017/idn-phishing/",
-            "https://wiki.mozilla.org/IDN_Display_Algorithm",
-            "https://en.wikipedia.org/wiki/IDN_homograph_attack",
-            "https://www.mozilla.org/en-US/security/advisories/mfsa2017-02/"
-        ]
-    },
-
-    {
-        "comments": "Disable Pocket",
-        "type": "lockPref",
-        "key": "extensions.pocket.enabled",
-        "value": false,
-        "references": [
-            "https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox",
-            "https://github.com/pyllyukko/user.js/issues/143"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.pocket.site",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.pocket.oAuthConsumerKey",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "extensions.pocket.api",
-        "value": ""
-    },
-
-    {
-        "comments": "Disable downloading homepage snippets/messages from Mozilla",
-        "type": "lockPref",
-        "key": "browser.aboutHomeSnippets.updateUrl",
-        "value": "",
-        "references": [
-            "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_mozilla-content",
-            "https://wiki.mozilla.org/Firefox/Projects/Firefox_Start/Snippet_Service"
-        ]
-    },
-
-    {
-        "comments": "Don't reveal build ID",
-        "notes": "Value taken from Tor Browser. Possibly already enforced with `privacy.resistFingerprinting'",
-        "type": "lockPref",
-        "key": "general.buildID.override",
-        "value": "20100101",
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=583181"
-        ]
-    },
-
-    {
-        "comments": "Don't reveal build ID",
-        "notes": "Value taken from Tor Browser. Possibly already enforced with `privacy.resistFingerprinting`",
-        "type": "lockPref",
-        "key": "browser.startup.homepage_override.buildID",
-        "value": "20100101",
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=583181"
-        ]
-    },
-
-    {
-        "comments": "Disable pinging URIs specified in HTML <a> ping= attributes",
-        "type": "lockPref",
-        "key": "browser.send_pings",
-        "value": false,
-        "references": [
-            "http://kb.mozillazine.org/Browser.send_pings"
-        ]
-    },
-
-    {
-        "comments": "When browser pings are enabled, only allow pinging the origin page's host",
-        "type": "lockPref",
-        "key": "browser.send_pings.require_same_host",
-        "value": true,
-        "references": [
-            "http://kb.mozillazine.org/Browser.send_pings.require_same_host"
-        ]
-    },
-
-    {
-        "comments": "Do not download URLs for the offline cache",
-        "type": "lockPref",
-        "key": "browser.cache.offline.enable",
-        "value": false,
-        "references": [
-            "http://kb.mozillazine.org/Browser.cache.offline.enable"
-        ]
-    },
-
-    {
-        "comments": "Disable prefetching of <link rel='next'> URLs",
-        "notes": "Link prefetching is when a webpage hints to the browser that certain pages are likely to be visited, so the browser downloads them immediately so they can be displayed immediately when the user requests it.",
-        "type": "lockPref",
-        "key": "network.prefetch-next",
-        "value": false,
-        "references": [
-            "http://kb.mozillazine.org/Network.prefetch-next",
-            "https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ#Is_there_a_preference_to_disable_link_prefetching.3F"
-        ]
-    },
-
-    {
-        "comments": "Disable speculative pre-connections",
-        "notes": "Disable prefetch link on hover.",
-        "type": "lockPref",
-        "key": "network.http.speculative-parallel-limit",
-        "value": 0,
-        "references": [
-            "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_speculative-pre-connections",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=814169"
-        ]
-    },
-
-    {
-        "comments": "",
-        "notes": "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server. May leak IP when using proxy/VPN.",
-        "type": "lockPref",
-        "key": "media.peerconnection.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "notes": "Deprecated active",
-        "type": "lockPref",
-        "key": "dom.enable_performance",
-        "value": false
-    },
-
-    {
-        "comments": "Disable DOM timing API",
-        "type": "lockPref",
-        "key": "dom.enable_performance_navigation_timing",
-        "value": false,
-        "references": [
-            "https://wiki.mozilla.org/Security/Reviews/Firefox/NavigationTimingAPI",
-            "https://www.w3.org/TR/navigation-timing/#privacy"
-        ]
-    },
-
-    {
-        "comments": "Make sure the User Timing API does not provide a new high resolution timestamp",
-        "type": "lockPref",
-        "key": "dom.enable_user_timing",
-        "value": false,
-        "references": [
-            "https://trac.torproject.org/projects/tor/ticket/16336",
-            "https://www.w3.org/TR/2013/REC-user-timing-20131212/#privacy-security"
-        ]
-    },
-
-    {
-        "comments": "Disable Web Audio API",
-        "notes": "Avoid fingerprinting",
-        "type": "lockPref",
-        "key": "dom.webaudio.enabled",
-        "value": false,
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1288359"
-        ]
-    },
-
-    {
-        "comments": "When geolocation is enabled, don't log geolocation requests to the console",
-        "type": "lockPref",
-        "key": "geo.wifi.logging.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "Disable 'beacon' asynchronous HTTP transfers (used for analytics)",
-        "type": "lockPref",
-        "key": "beacon.enabled",
-        "value": false,
-        "references": [
-            "https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon"
-        ]
-    },
-
-    {
-        "comments": "Disable speech recognition",
-        "type": "lockPref",
-        "key": "media.webspeech.recognition.enable",
-        "value": false,
-        "references": [
-            "https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html",
-            "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition",
-            "https://wiki.mozilla.org/HTML5_Speech_API"
-        ]
-    },
-
-    {
-        "comments": "Disable virtual reality devices APIs",
-        "type": "lockPref",
-        "key": "dom.vr.enabled",
-        "value": false,
-        "references": [
-            "https://developer.mozilla.org/en-US/Firefox/Releases/36#Interfaces.2FAPIs.2FDOM",
-            "https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API≈"
-        ]
-    },
-
-    {
-        "comments": "Disable vibrator API",
-        "type": "lockPref",
-        "key": "dom.vibrator.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable GeoIP lookup on your address to set default search engine region",
-        "type": "lockPref",
-        "key": "browser.search.region",
-        "value": "US",
-        "references": [
-            "https://trac.torproject.org/projects/tor/ticket/16254",
-            "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_geolocation-for-default-search-engine"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.search.geoip.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.search.geoSpecificDefaults.url",
-        "value": ""
-    },
-
-    {
-        "comments": "Don't use Mozilla-provided location-specific search engines",
-        "type": "lockPref",
-        "key": "browser.search.geoSpecificDefaults",
-        "value": false
-    },
-
-    {
-        "comments": "Don't trim HTTP from URLs in the address bar",
-        "type": "lockPref",
-        "key": "browser.urlbar.trimURLs",
-        "value": false,
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=665580"
-        ]
-    },
-
-    {
-        "comments": "Don't try to guess domain names when entering an invalid domain name in URL bar",
-        "type": "lockPref",
-        "key": "browser.fixup.alternate.enabled",
-        "value": false,
-        "references": [
-            "http://www-archive.mozilla.org/docs/end-user/domain-guessing.html"
-        ]
-    },
-
-    {
-        "comments": "Strip password from 'user:password@...' URLs",
-        "notes": "… when browser.fixup.alternate.enabled is enabled",
-        "type": "lockPref",
-        "key": "browser.fixup.hide_user_pass",
-        "value": true,
-        "references": [
-            "https://github.com/pyllyukko/user.js/issues/290#issuecomment-303560851"
-        ]
-    },
-
-    {
-        "comments": "Don't monitor OS online/offline connection state",
-        "type": "lockPref",
-        "key": "network.manage-offline-status",
-        "value": false,
-        "references": [
-            "https://trac.torproject.org/projects/tor/ticket/18945"
-        ]
-    },
-
-    {
-        "comments": "Set File URI Origin Policy",
-        "notes": "CIS Mozilla Firefox 24 ESR v1.0.0 - 3.8",
-        "type": "lockPref",
-        "key": "security.fileuri.strict_origin_policy",
-        "value": true,
-        "references" :[
-            "http://kb.mozillazine.org/Security.fileuri.strict_origin_policy"
-        ]
-    },
-
-    {
-        "comments": "Disable SVG in OpenType fonts",
-        "type": "lockPref",
-        "key": "gfx.font_rendering.opentype_svg.enabled",
-        "value": false,
-        "references": [
-            "https://wiki.mozilla.org/SVGOpenTypeFonts",
-            "https://github.com/iSECPartners/publications/tree/master/reports/Tor%20Browser%20Bundle"
-        ]
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.warn-external-default",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.http",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.https",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.javascript",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.moz-extension",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.ftp",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.file",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.about",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.chrome",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.blob",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.external.data",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose-all",
-        "value": false
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.http",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.https",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.javascript",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.moz-extension",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.ftp",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.file",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.about",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.chrome",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.blob",
-        "value": true
-    },
-
-    {
-        "comments": "Enable only whitelisted URL protocol handlers",
-        "type": "lockPref",
-        "key": "network.protocol-handler.expose.data",
-        "value": true
-    },
-
-    {
-        "comments": "Ensure there is a security delay when installing add-ons (milliseconds)",
-        "type": "lockPref",
-        "key": "security.dialog_enable_delay",
-        "value": 700,
-        "references": [
-            "http://kb.mozillazine.org/Disable_extension_install_delay_-_Firefox",
-            "http://www.squarefree.com/2004/07/01/race-conditions-in-security-dialogs/"
-        ]
-    },
-
-    {
-        "comments": "Opt-out of add-on metadata updates",
-        "type": "defaultPref",
-        "key": "extensions.getAddons.cache.enabled",
-        "value": false,
-        "references": [
-            "https://blog.mozilla.org/addons/how-to-opt-out-of-add-on-metadata-updates/"
-        ]
-    },
-
-    {
-        "comments": "Opt-out of theme (Persona) updates",
-        "type": "lockPref",
-        "key": "lightweightThemes.update.enabled",
-        "value": false,
-        "references": [
-            "https://support.mozilla.org/t5/Firefox/how-do-I-prevent-autoamtic-updates-in-a-50-user-environment/td-p/144287"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "lightweightThemes.persisted.headerURL",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "lightweightThemes.persisted.footerURL",
-        "value": false
-    },
-
-    {
-        "comments": "Disable Flash Player NPAPI plugin",
-        "type": "lockPref",
-        "key": "plugin.state.flash",
-        "value": 0,
-        "references": [
-            "http://kb.mozillazine.org/Flash_plugin"
-        ]
-    },
-
-    {
-        "comments": "Disable sending Flash Player crash reports",
-        "type": "lockPref",
-        "key": "dom.ipc.plugins.flash.subprocess.crashreporter.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "When Flash Player crash reports are enabled, don't send the visited URL in the crash report",
-        "type": "lockPref",
-        "key": "dom.ipc.plugins.reportCrashURL",
-        "value": false
-    },
-
-    {
-        "comments": "Disable Shumway (Mozilla Flash renderer)",
-        "type": "lockPref",
-        "key": "shumway.disabled",
-        "value": true,
-        "references": [
-            "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Shumway"
-        ]
-    },
-
-    {
-        "comments": "Disable Gnome Shell Integration NPAPI plugin",
-        "type": "lockPref",
-        "key": "plugin.state.libgnome-shell-browser-plugin",
-        "value": 0
-    },
-
-    {
-        "comments": "Enable click-to-play plugin",
-        "type": "lockPref",
-        "key": "plugins.click_to_play",
-        "value": true,
-        "references": [
-            "https://wiki.mozilla.org/Firefox/Click_To_Play",
-            "https://blog.mozilla.org/security/2012/10/11/click-to-play-plugins-blocklist-style/"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "plugin.sessionPermissionNow.intervalInMinutes",
-        "value": 0
-    },
-
-    {
-        "comments": "Update addons automatically",
-        "type": "defaultPref",
-        "key": "extensions.update.enabled",
-        "value": false,
-        "references": [
-            "https://blog.mozilla.org/addons/how-to-turn-off-add-on-updates/"
-        ]
-    },
-
-    {
-        "comments": "Enable add-on and certificate blocklists (OneCRL) from Mozilla",
-        "notes": "Updated at interval defined in extensions.blocklist.interval (default: 86400)",
-        "type": "lockPref",
-        "key": "extensions.blocklist.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable system add-on updates (hidden & always-enabled add-ons from Mozilla)",
-        "type": "lockPref",
-        "key": "extensions.systemAddon.update.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "Disable WebIDE Web Debug",
-        "type": "lockPref",
-        "key": "devtools.webide.enabled",
-        "value": false,
-        "references": [
-            "https://trac.torproject.org/projects/tor/ticket/16222",
-            "https://developer.mozilla.org/docs/Tools/WebIDE"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.webide.autoinstallADBExtension",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.remote.adb.extensionURL",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "devtools.remote.adb.extensionID",
-        "value": ""
-    },
-
-    {
-        "comments": "Disable remote debugging",
-        "type": "lockPref",
-        "key": "devtools.debugger.force-local",
-        "value": true,
-        "references": [
-            "https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_Desktop",
-            "https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox#Advanced_settings"
-        ]
-    },
-
-    {
-        "comments": "Disallow Necko to do A/B testing",
-        "type": "lockPref",
-        "key": "network.allow-experiments",
-        "value": false,
-        "references": [
-            "https://trac.torproject.org/projects/tor/ticket/13170"
-        ]
-    },
-
-    {
-        "comments": "Disable sending reports of tab crashes to Mozilla (about:tabcrashed)",
-        "type": "lockPref",
-        "key": "browser.tabs.crashReporting.sendReport",
-        "value": false,
-        "references": [
-            "https://hg.mozilla.org/mozilla-central/file/tip/browser/app/profile/firefox.js"
-        ]
-    },
-
-    {
-        "comments": "Don't nag user about unsent crash reports",
-        "type": "lockPref",
-        "key": "browser.crashReports.unsubmittedCheck.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.crashReports.unsubmittedCheck.autoSubmit2",
-        "value": false
-    },
-
-    {
-        "comments": "Disable SHIELD",
-        "type": "lockPref",
-        "key": "app.shield.optoutstudies.enabled",
-        "value": false,
-        "references": [
-            "https://support.mozilla.org/en-US/kb/shield",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1370801"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.section.topstories",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.section.highlights.includePocket",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.showSponsored",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.aboutHome.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.asrouter.messageProviders",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.asrouter.devtoolsEnableds",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.telemetry",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.telemetry.ping.endpoint",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.telemetry",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.snippets",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.disableSnippets",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.default.sites",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.discoverystream.config",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.discoverystream.endpoints",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.asrouterfeed",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.discoverystreamfeed",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.newtabinit",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.places",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.systemtick",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtab.preload",
-        "value": false
-    },
-
-    {
-        "comments": "Disable 'Show search suggestions in location bar results'",
-        "type": "lockPref",
-        "key": "browser.urlbar.suggest.searches",
-        "value": false
-    },
-
-    {
-        "comments": "Disable 'Show search suggestions in location bar results'",
-        "type": "lockPref",
-        "key": "browser.urlbar.userMadeSearchSuggestionsChoice",
-        "value": true
-    },
-
-    {
-        "comments": "Never check for updates to search engines",
-        "type": "lockPref",
-        "key": "browser.search.update",
-        "value": false,
-        "references": [
-            "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_auto-update-checking"
-        ]
-    },
-
-    {
-        "comments": "Disable automatic captive portal detection",
-        "type": "lockPref",
-        "key": "network.captive-portal-service.enabled",
-        "value": false,
-        "references": [
-            "https://support.mozilla.org/en-US/questions/1157121"
-        ]
-    },
-
-    {
-        "comments": "Disallow NTLMv1",
-        "type": "lockPref",
-        "key": "network.negotiate-auth.allow-insecure-ntlm-v1",
-        "value": false
-    },
-
-    {
-        "comments": "Disallow NTLMv1 over HTTPS too",
-        "type": "lockPref",
-        "key": "network.negotiate-auth.allow-insecure-ntlm-v1-https",
-        "value": false,
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=828183"
-        ]
-    },
-
-    {
-        "comments": "Disable formless login capture",
-        "type": "lockPref",
-        "key": "signon.formlessCapture.enabled",
-        "value": false,
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1166947"
-        ]
-    },
-
-    {
-        "comments": "Delete temporary files on exit",
-        "type": "lockPref",
-        "key": "browser.helperApps.deleteTempFileOnExit",
-        "value": true,
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=238789"
-        ]
-    },
-
-    {
-        "comments": "Do not create screenshots of visited pages (relates to the 'new tab page' feature)",
-        "type": "lockPref",
-        "key": "browser.pagethumbnails.capturing_disabled",
-        "value": true,
-        "references": [
-            "https://support.mozilla.org/en-US/questions/973320",
-            "https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/browser.pagethumbnails.capturing_disabled"
-        ]
-    }
-]
+{
+    "name": "General",
+    "subcategory": "",
+    "notes": "",
+    "section": [
+        {
+            "comments": "Onboarding tour disabled because of included telemetry",
+            "notes": "This extension has already been removed. This setting is here to disable it just in case it comes back or for users using the script outside the bundle.",
+            "type": "lockPref",
+            "key": "browser.onboarding.notification.finished",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.onboarding.tour.onboarding-tour-customize.completed",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.onboarding.tour.onboarding-tour-performance.completed",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.onboarding.telemetry.logged",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.engine.addresses.available",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.bookmarks.restore_default_bookmarks",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "pdfjs.previousHandler.alwaysAskBeforeHandling",
+            "value": true
+        },
+        {
+            "comments": "Caching for integrated PDF",
+            "type": "lockPref",
+            "key": "pdfjs.enabledCache.state",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "pref.general.disable_button.default_browser",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "pref.privacy.disable_button.view_passwords",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "identity.mobilepromo.android",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.systemAddon.update.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "datareporting.healthreport.infoURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.daysBeforeHidingSuggestionsPrompt",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.searchSuggestionsChoice",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.timesBeforeHidingSuggestionsHint",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.shell.didSkipDefaultBrowserCheckOnFirstRun",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.feedback.baseURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.normandy.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.normandy.api_url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.normandy.first_run",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.normandy.user_id",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.releaseNotesURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.update.auto",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.update.autoUpdateDefault",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.update.staging.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.update.silent",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.update.lastUpdateTime.telemetry_modules_ping",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.update.url.details",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.update.url.manual",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "app.vendorURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "breakpad.reportURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.chrome.errorReporter.submitUrl",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.chrome.errorReporter.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.ping-centre.staging.endpoint",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.ping-centre.telemetry",
+            "value": false
+        },
+        {
+            "comments": "Google Safe Browsing (blocks dangerous and deceptive contents)",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.id",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.pver",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.pver",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.allowOverride",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.blockedURIs.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.downloads.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.downloads.remote.block_dangerous",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.downloads.remote.block_dangerous_host",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.downloads.remote.block_potentially_unwanted",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.downloads.remote.block_uncommon",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.downloads.remote.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.downloads.remote.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.malware.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.passwords.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.phishing.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.advisoryURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.dataSharing.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.dataSharingURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.gethashURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.lists",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.reportMalwareMistakeURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.reportPhishMistakeURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.reportURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.updateURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.lastupdatetime",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google4.nextupdatetime",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.advisoryURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.gethashURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.lastupdatetime",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.lists",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.nextupdatetime",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.pver",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.reportMalwareMistakeURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.reportPhishMistakeURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.reportURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.google.updateURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.gethashURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.lastupdatetime",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.nextupdatetime",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.provider.mozilla.updateURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.safebrowsing.reportPhishURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.search.suggest.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "captivedetect.canonicalURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "datareporting.policy.firstRunURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.devedition.promo.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.devices.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.gcli.imgurUploadURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.gcli.jquerySrc",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.gcli.underscoreSrc",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.telemetry.supported_performance_marks",
+            "value": ""
+        },
+        {
+            "enabled": false,
+            "comments": "Fix ESR Devtools",
+            "type": "lockPref",
+            "key": "devtools.telemetry.tools.opened.version",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.battery.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.permissions.enabled",
+            "value": false
+        },
+        {
+            "comments": "Maximum popups that may be launched at the same time",
+            "type": "lockPref",
+            "key": "dom.popup_maximum",
+            "value": 4
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.registerProtocolHandler.insecure.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.blocklist.detailsURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.blocklist.itemURL",
+            "value": ""
+        },
+        {
+            "comments": "Block list url disabled",
+            "notes": "gHacks tunes this to minimize privacy issues. It is completely disabled here.",
+            "type": "lockPref",
+            "key": "extensions.blocklist.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.update.background.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.getAddons.showPane",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.webservice.discoverURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.mailto.0.uriTemplate",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.mailto.1.uriTemplate",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "gecko.handlerService.schemes.webcal.0.uriTemplate",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "geo.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "geo.wifi.uri",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "identity.fxaccounts.auth.uri",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "identity.fxaccounts.remote.oauth.uri",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "identity.fxaccounts.remote.profile.uri",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "identity.mobilepromo.ios",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "layout.css.visited_links_enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "lpbmode.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "mailnews.messageid_browser.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "mailnews.mx_service_url",
+            "value": ""
+        },
+        {
+            "comments": "Disable predictor / prefetching",
+            "notes": "Network predictor load pages before they are opened with mouse hover for example",
+            "type": "lockPref",
+            "key": "network.predictor.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.predictor.cleaned-up",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.predictor.enable-prefetch",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "plugins.crash.supportUrl",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.clients.lastSync",
+            "value": "0"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.clients.lastSyncLocal",
+            "value": "0"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.declinedEngines",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.globalScore",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.jpake.serverURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.migrated",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.nextSync",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.safebrowsing.downloads.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.safebrowsing.malware.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.safebrowsing.passwords.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.prefs.sync.browser.safebrowsing.phishing.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.serverURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.tabs.lastSync",
+            "value": "0"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "services.sync.tabs.lastSyncLocal",
+            "value": "0"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "sync.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "sync.jpake.serverURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "sync.serverURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.crashreporter.infoURL",
+            "value": ""
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.archive.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.updatePing.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.bhrPing.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.cachedClientID",
+            "value": ""
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.firstShutdownPing.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.hybridContent.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.infoURL",
+            "value": ""
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.newProfilePing.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.previousBuildID",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "notes": "Setting seems to still exist",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.prompted",
+            "value": 2
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.rejected",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.reportingpolicy.firstRun",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.server",
+            "value": "data:,"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.server_owner",
+            "value": ""
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.shutdownPingSender.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.unified",
+            "value": false
+        },
+        {
+            "comments": "Disable telemetry",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.coverage.opt-out",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "webextensions.storage.sync.serverURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.screenshots.upload-disabled",
+            "value": true
+        },
+        {
+            "comments": "Referer: ALL: control the amount of information to send",
+            "notes": "0=send full URI (default), 1=scheme+host+port+path, 2=scheme+host+port",
+            "type": "lockPref",
+            "key": "network.http.referer.trimmingPolicy",
+            "value": 0
+        },
+        {
+            "comments": "Close tab",
+            "type": "lockPref",
+            "key": "browser.tabs.closeTabByDblclick",
+            "value": true
+        },
+        {
+            "comments": "Disable collection/sending of the health report (healthreport.sqlite*)",
+            "type": "lockPref",
+            "key": "datareporting.healthreport.uploadEnabled",
+            "value": false,
+            "references": [
+                "https://support.mozilla.org/en-US/kb/firefox-health-report-understand-your-browser-perf",
+                "https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/preferences.html"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "datareporting.policy.dataSubmissionEnabled",
+            "value": false
+        },
+        {
+            "comments": "Disable right-click menu manipulation via JavaScript (disabled)",
+            "type": "lockPref",
+            "key": "dom.event.contextmenu.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable clipboard event detection (onCut/onCopy/onPaste) via Javascript",
+            "notes": "Disabling clipboard events breaks Ctrl+C/X/V copy/cut/paste functionaility in JS-based web applications (Google Docs etc.)",
+            "type": "lockPref",
+            "key": "dom.event.clipboardevents.enabled",
+            "value": false,
+            "references": [
+                "https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/dom.event.clipboardevents.enabled"
+            ]
+        },
+        {
+            "comments": "Force Punycode for Internationalized Domain Names",
+            "notes": "CIS Mozilla Firefox 24 ESR v1.0.0 - 3.6",
+            "type": "lockPref",
+            "key": "network.IDN_show_punycode",
+            "value": true,
+            "references": [
+                "http://kb.mozillazine.org/Network.IDN_show_punycode",
+                "https://www.xudongz.com/blog/2017/idn-phishing/",
+                "https://wiki.mozilla.org/IDN_Display_Algorithm",
+                "https://en.wikipedia.org/wiki/IDN_homograph_attack",
+                "https://www.mozilla.org/en-US/security/advisories/mfsa2017-02/"
+            ]
+        },
+        {
+            "comments": "Disable Pocket",
+            "type": "lockPref",
+            "key": "extensions.pocket.enabled",
+            "value": false,
+            "references": [
+                "https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox",
+                "https://github.com/pyllyukko/user.js/issues/143"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.pocket.site",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.pocket.oAuthConsumerKey",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.pocket.api",
+            "value": ""
+        },
+        {
+            "comments": "Disable downloading homepage snippets/messages from Mozilla",
+            "type": "lockPref",
+            "key": "browser.aboutHomeSnippets.updateUrl",
+            "value": "",
+            "references": [
+                "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_mozilla-content",
+                "https://wiki.mozilla.org/Firefox/Projects/Firefox_Start/Snippet_Service"
+            ]
+        },
+        {
+            "comments": "Don't reveal build ID",
+            "notes": "Value taken from Tor Browser. Possibly already enforced with `privacy.resistFingerprinting'",
+            "type": "lockPref",
+            "key": "general.buildID.override",
+            "value": "20100101",
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=583181"
+            ]
+        },
+        {
+            "comments": "Don't reveal build ID",
+            "notes": "Value taken from Tor Browser. Possibly already enforced with `privacy.resistFingerprinting`",
+            "type": "lockPref",
+            "key": "browser.startup.homepage_override.buildID",
+            "value": "20100101",
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=583181"
+            ]
+        },
+        {
+            "comments": "Disable pinging URIs specified in HTML <a> ping= attributes",
+            "type": "lockPref",
+            "key": "browser.send_pings",
+            "value": false,
+            "references": [
+                "http://kb.mozillazine.org/Browser.send_pings"
+            ]
+        },
+        {
+            "comments": "When browser pings are enabled, only allow pinging the origin page's host",
+            "type": "lockPref",
+            "key": "browser.send_pings.require_same_host",
+            "value": true,
+            "references": [
+                "http://kb.mozillazine.org/Browser.send_pings.require_same_host"
+            ]
+        },
+        {
+            "comments": "Do not download URLs for the offline cache",
+            "type": "lockPref",
+            "key": "browser.cache.offline.enable",
+            "value": false,
+            "references": [
+                "http://kb.mozillazine.org/Browser.cache.offline.enable"
+            ]
+        },
+        {
+            "comments": "Disable prefetching of <link rel='next'> URLs",
+            "notes": "Link prefetching is when a webpage hints to the browser that certain pages are likely to be visited, so the browser downloads them immediately so they can be displayed immediately when the user requests it.",
+            "type": "lockPref",
+            "key": "network.prefetch-next",
+            "value": false,
+            "references": [
+                "http://kb.mozillazine.org/Network.prefetch-next",
+                "https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ#Is_there_a_preference_to_disable_link_prefetching.3F"
+            ]
+        },
+        {
+            "comments": "Disable speculative pre-connections",
+            "notes": "Disable prefetch link on hover.",
+            "type": "lockPref",
+            "key": "network.http.speculative-parallel-limit",
+            "value": 0,
+            "references": [
+                "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_speculative-pre-connections",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=814169"
+            ]
+        },
+        {
+            "comments": "",
+            "notes": "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server. May leak IP when using proxy/VPN.",
+            "type": "lockPref",
+            "key": "media.peerconnection.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "notes": "Deprecated active",
+            "type": "lockPref",
+            "key": "dom.enable_performance",
+            "value": false
+        },
+        {
+            "comments": "Disable DOM timing API",
+            "type": "lockPref",
+            "key": "dom.enable_performance_navigation_timing",
+            "value": false,
+            "references": [
+                "https://wiki.mozilla.org/Security/Reviews/Firefox/NavigationTimingAPI",
+                "https://www.w3.org/TR/navigation-timing/#privacy"
+            ]
+        },
+        {
+            "comments": "Make sure the User Timing API does not provide a new high resolution timestamp",
+            "type": "lockPref",
+            "key": "dom.enable_user_timing",
+            "value": false,
+            "references": [
+                "https://trac.torproject.org/projects/tor/ticket/16336",
+                "https://www.w3.org/TR/2013/REC-user-timing-20131212/#privacy-security"
+            ]
+        },
+        {
+            "comments": "Disable Web Audio API",
+            "notes": "Avoid fingerprinting",
+            "type": "lockPref",
+            "key": "dom.webaudio.enabled",
+            "value": false,
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1288359"
+            ]
+        },
+        {
+            "comments": "When geolocation is enabled, don't log geolocation requests to the console",
+            "type": "lockPref",
+            "key": "geo.wifi.logging.enabled",
+            "value": true
+        },
+        {
+            "comments": "Disable 'beacon' asynchronous HTTP transfers (used for analytics)",
+            "type": "lockPref",
+            "key": "beacon.enabled",
+            "value": false,
+            "references": [
+                "https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon"
+            ]
+        },
+        {
+            "comments": "Disable speech recognition",
+            "type": "lockPref",
+            "key": "media.webspeech.recognition.enable",
+            "value": false,
+            "references": [
+                "https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html",
+                "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition",
+                "https://wiki.mozilla.org/HTML5_Speech_API"
+            ]
+        },
+        {
+            "comments": "Disable virtual reality devices APIs",
+            "type": "lockPref",
+            "key": "dom.vr.enabled",
+            "value": false,
+            "references": [
+                "https://developer.mozilla.org/en-US/Firefox/Releases/36#Interfaces.2FAPIs.2FDOM",
+                "https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API≈"
+            ]
+        },
+        {
+            "comments": "Disable vibrator API",
+            "type": "lockPref",
+            "key": "dom.vibrator.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable GeoIP lookup on your address to set default search engine region",
+            "type": "lockPref",
+            "key": "browser.search.region",
+            "value": "US",
+            "references": [
+                "https://trac.torproject.org/projects/tor/ticket/16254",
+                "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_geolocation-for-default-search-engine"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.search.geoip.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.search.geoSpecificDefaults.url",
+            "value": ""
+        },
+        {
+            "comments": "Don't use Mozilla-provided location-specific search engines",
+            "type": "lockPref",
+            "key": "browser.search.geoSpecificDefaults",
+            "value": false
+        },
+        {
+            "comments": "Don't trim HTTP from URLs in the address bar",
+            "type": "lockPref",
+            "key": "browser.urlbar.trimURLs",
+            "value": false,
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=665580"
+            ]
+        },
+        {
+            "comments": "Don't try to guess domain names when entering an invalid domain name in URL bar",
+            "type": "lockPref",
+            "key": "browser.fixup.alternate.enabled",
+            "value": false,
+            "references": [
+                "http://www-archive.mozilla.org/docs/end-user/domain-guessing.html"
+            ]
+        },
+        {
+            "comments": "Strip password from 'user:password@...' URLs",
+            "notes": "… when browser.fixup.alternate.enabled is enabled",
+            "type": "lockPref",
+            "key": "browser.fixup.hide_user_pass",
+            "value": true,
+            "references": [
+                "https://github.com/pyllyukko/user.js/issues/290#issuecomment-303560851"
+            ]
+        },
+        {
+            "comments": "Don't monitor OS online/offline connection state",
+            "type": "lockPref",
+            "key": "network.manage-offline-status",
+            "value": false,
+            "references": [
+                "https://trac.torproject.org/projects/tor/ticket/18945"
+            ]
+        },
+        {
+            "comments": "Set File URI Origin Policy",
+            "notes": "CIS Mozilla Firefox 24 ESR v1.0.0 - 3.8",
+            "type": "lockPref",
+            "key": "security.fileuri.strict_origin_policy",
+            "value": true,
+            "references": [
+                "http://kb.mozillazine.org/Security.fileuri.strict_origin_policy"
+            ]
+        },
+        {
+            "comments": "Disable SVG in OpenType fonts",
+            "type": "lockPref",
+            "key": "gfx.font_rendering.opentype_svg.enabled",
+            "value": false,
+            "references": [
+                "https://wiki.mozilla.org/SVGOpenTypeFonts",
+                "https://github.com/iSECPartners/publications/tree/master/reports/Tor%20Browser%20Bundle"
+            ]
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.warn-external-default",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.http",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.https",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.javascript",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.moz-extension",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.ftp",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.file",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.about",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.chrome",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.blob",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.external.data",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose-all",
+            "value": false
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.http",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.https",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.javascript",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.moz-extension",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.ftp",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.file",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.about",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.chrome",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.blob",
+            "value": true
+        },
+        {
+            "comments": "Enable only whitelisted URL protocol handlers",
+            "type": "lockPref",
+            "key": "network.protocol-handler.expose.data",
+            "value": true
+        },
+        {
+            "comments": "Ensure there is a security delay when installing add-ons (milliseconds)",
+            "type": "lockPref",
+            "key": "security.dialog_enable_delay",
+            "value": 700,
+            "references": [
+                "http://kb.mozillazine.org/Disable_extension_install_delay_-_Firefox",
+                "http://www.squarefree.com/2004/07/01/race-conditions-in-security-dialogs/"
+            ]
+        },
+        {
+            "comments": "Opt-out of add-on metadata updates",
+            "type": "defaultPref",
+            "key": "extensions.getAddons.cache.enabled",
+            "value": false,
+            "references": [
+                "https://blog.mozilla.org/addons/how-to-opt-out-of-add-on-metadata-updates/"
+            ]
+        },
+        {
+            "comments": "Opt-out of theme (Persona) updates",
+            "type": "lockPref",
+            "key": "lightweightThemes.update.enabled",
+            "value": false,
+            "references": [
+                "https://support.mozilla.org/t5/Firefox/how-do-I-prevent-autoamtic-updates-in-a-50-user-environment/td-p/144287"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "lightweightThemes.persisted.headerURL",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "lightweightThemes.persisted.footerURL",
+            "value": false
+        },
+        {
+            "comments": "Disable Flash Player NPAPI plugin",
+            "type": "lockPref",
+            "key": "plugin.state.flash",
+            "value": 0,
+            "references": [
+                "http://kb.mozillazine.org/Flash_plugin"
+            ]
+        },
+        {
+            "comments": "Disable sending Flash Player crash reports",
+            "type": "lockPref",
+            "key": "dom.ipc.plugins.flash.subprocess.crashreporter.enabled",
+            "value": false
+        },
+        {
+            "comments": "When Flash Player crash reports are enabled, don't send the visited URL in the crash report",
+            "type": "lockPref",
+            "key": "dom.ipc.plugins.reportCrashURL",
+            "value": false
+        },
+        {
+            "comments": "Disable Shumway (Mozilla Flash renderer)",
+            "type": "lockPref",
+            "key": "shumway.disabled",
+            "value": true,
+            "references": [
+                "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Shumway"
+            ]
+        },
+        {
+            "comments": "Disable Gnome Shell Integration NPAPI plugin",
+            "type": "lockPref",
+            "key": "plugin.state.libgnome-shell-browser-plugin",
+            "value": 0
+        },
+        {
+            "comments": "Enable click-to-play plugin",
+            "type": "lockPref",
+            "key": "plugins.click_to_play",
+            "value": true,
+            "references": [
+                "https://wiki.mozilla.org/Firefox/Click_To_Play",
+                "https://blog.mozilla.org/security/2012/10/11/click-to-play-plugins-blocklist-style/"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "plugin.sessionPermissionNow.intervalInMinutes",
+            "value": 0
+        },
+        {
+            "comments": "Update addons automatically",
+            "type": "defaultPref",
+            "key": "extensions.update.enabled",
+            "value": false,
+            "references": [
+                "https://blog.mozilla.org/addons/how-to-turn-off-add-on-updates/"
+            ]
+        },
+        {
+            "comments": "Enable add-on and certificate blocklists (OneCRL) from Mozilla",
+            "notes": "Updated at interval defined in extensions.blocklist.interval (default: 86400)",
+            "type": "lockPref",
+            "key": "extensions.blocklist.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable system add-on updates (hidden & always-enabled add-ons from Mozilla)",
+            "type": "lockPref",
+            "key": "extensions.systemAddon.update.enabled",
+            "value": false
+        },
+        {
+            "comments": "Disable WebIDE Web Debug",
+            "type": "lockPref",
+            "key": "devtools.webide.enabled",
+            "value": false,
+            "references": [
+                "https://trac.torproject.org/projects/tor/ticket/16222",
+                "https://developer.mozilla.org/docs/Tools/WebIDE"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.webide.autoinstallADBExtension",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.remote.adb.extensionURL",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "devtools.remote.adb.extensionID",
+            "value": ""
+        },
+        {
+            "comments": "Disable remote debugging",
+            "type": "lockPref",
+            "key": "devtools.debugger.force-local",
+            "value": true,
+            "references": [
+                "https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_Desktop",
+                "https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox#Advanced_settings"
+            ]
+        },
+        {
+            "comments": "Disallow Necko to do A/B testing",
+            "type": "lockPref",
+            "key": "network.allow-experiments",
+            "value": false,
+            "references": [
+                "https://trac.torproject.org/projects/tor/ticket/13170"
+            ]
+        },
+        {
+            "comments": "Disable sending reports of tab crashes to Mozilla (about:tabcrashed)",
+            "type": "lockPref",
+            "key": "browser.tabs.crashReporting.sendReport",
+            "value": false,
+            "references": [
+                "https://hg.mozilla.org/mozilla-central/file/tip/browser/app/profile/firefox.js"
+            ]
+        },
+        {
+            "comments": "Don't nag user about unsent crash reports",
+            "type": "lockPref",
+            "key": "browser.crashReports.unsubmittedCheck.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.crashReports.unsubmittedCheck.autoSubmit2",
+            "value": false
+        },
+        {
+            "comments": "Disable SHIELD",
+            "type": "lockPref",
+            "key": "app.shield.optoutstudies.enabled",
+            "value": false,
+            "references": [
+                "https://support.mozilla.org/en-US/kb/shield",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1370801"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.section.topstories",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.section.highlights.includePocket",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.showSponsored",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.aboutHome.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.messageProviders",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.devtoolsEnableds",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.telemetry",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.telemetry.ping.endpoint",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.telemetry",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.snippets",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.disableSnippets",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.default.sites",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.discoverystream.config",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.discoverystream.endpoints",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.asrouterfeed",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.discoverystreamfeed",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.newtabinit",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.places",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.systemtick",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtab.preload",
+            "value": false
+        },
+        {
+            "comments": "Disable 'Show search suggestions in location bar results'",
+            "type": "lockPref",
+            "key": "browser.urlbar.suggest.searches",
+            "value": false
+        },
+        {
+            "comments": "Disable 'Show search suggestions in location bar results'",
+            "type": "lockPref",
+            "key": "browser.urlbar.userMadeSearchSuggestionsChoice",
+            "value": true
+        },
+        {
+            "comments": "Never check for updates to search engines",
+            "type": "lockPref",
+            "key": "browser.search.update",
+            "value": false,
+            "references": [
+                "https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_auto-update-checking"
+            ]
+        },
+        {
+            "comments": "Disable automatic captive portal detection",
+            "type": "lockPref",
+            "key": "network.captive-portal-service.enabled",
+            "value": false,
+            "references": [
+                "https://support.mozilla.org/en-US/questions/1157121"
+            ]
+        },
+        {
+            "comments": "Disallow NTLMv1",
+            "type": "lockPref",
+            "key": "network.negotiate-auth.allow-insecure-ntlm-v1",
+            "value": false
+        },
+        {
+            "comments": "Disallow NTLMv1 over HTTPS too",
+            "type": "lockPref",
+            "key": "network.negotiate-auth.allow-insecure-ntlm-v1-https",
+            "value": false,
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=828183"
+            ]
+        },
+        {
+            "comments": "Disable formless login capture",
+            "type": "lockPref",
+            "key": "signon.formlessCapture.enabled",
+            "value": false,
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1166947"
+            ]
+        },
+        {
+            "comments": "Delete temporary files on exit",
+            "type": "lockPref",
+            "key": "browser.helperApps.deleteTempFileOnExit",
+            "value": true,
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=238789"
+            ]
+        },
+        {
+            "comments": "Do not create screenshots of visited pages (relates to the 'new tab page' feature)",
+            "type": "lockPref",
+            "key": "browser.pagethumbnails.capturing_disabled",
+            "value": true,
+            "references": [
+                "https://support.mozilla.org/en-US/questions/973320",
+                "https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/browser.pagethumbnails.capturing_disabled"
+            ]
+        }
+    ]
+}

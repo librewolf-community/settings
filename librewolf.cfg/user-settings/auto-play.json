@@ -1,9 +1,13 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.autoplay.default",
-        "value": 2
-    }
-]
+{
+    "name": "Autoplay",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.autoplay.default",
+            "value": 2
+        }
+    ]
+}

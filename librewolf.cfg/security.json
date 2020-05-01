@@ -1,296 +1,269 @@
-[
-
-    {
-        "comments": "Enable insecure password warnings (login forms in non-HTTPS pages)",
-        "type": "lockPref",
-        "key": "security.insecure_password.ui.enabled",
-        "value": true,
-        "references": [
-            "https://blog.mozilla.org/tanvi/2016/01/28/no-more-passwords-over-http-please/",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1319119",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1217156"
-        ]
-    },
-
-    {
-        "comments": "Show in-content login form warning UI for insecure login fields",
-        "type": "lockPref",
-        "key": "security.insecure_field_warning.contextual.enabled",
-        "value": true,
-        "references": [
-            "https://hg.mozilla.org/integration/mozilla-inbound/rev/f0d146fe7317"
-        ]
-    },
-
-    {
-        "comments": "Disable HSTS preload list (pre-set HSTS sites list provided by Mozilla)",
-        "type": "lockPref",
-        "key": "network.stricttransportsecurity.preloadlist",
-        "value": false,
-        "references": [
-            "https://blog.mozilla.org/security/2012/11/01/preloading-hsts/",
-            "https://wiki.mozilla.org/Privacy/Features/HSTS_Preload_List",
-            "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security"
-        ]
-    },
-
-    {
-        "comments": "Disable TLS Session Tickets",
-        "notes": "SSL Session IDs speed up HTTPS connections (no need to renegotiate) and last for 48hrs. Since the ID is unique, web servers can (and do) use it for tracking. If set to true, this disables sending SSL Session IDs and TLS Session Tickets to prevent session tracking",
-        "type": "lockPref",
-        "key": "security.ssl.disable_session_identifiers",
-        "value": true,
-        "references": [
-            "https://www.blackhat.com/us-13/briefings.html#NextGen",
-            "https://media.blackhat.com/us-13/US-13-Daigniere-TLS-Secrets-Slides.pdf",
-            "https://media.blackhat.com/us-13/US-13-Daigniere-TLS-Secrets-WP.pdf",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=917049",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=967977"
-        ]
-    },
-
-    {
-        "comments": "Blocking GD Parking Scam Site",
-        "notes": "TODO: do we still need this? librefox.com isn't relevant anymore and this pretty much only tells LibreWolf to look for librefox.com locally",
-        "type": "defaultPref",
-        "key": "network.dns.localDomains",
-        "value": "librefox.com"
-    },
-
-    {
-        "comments": "Disable insecure TLS version fallback",
-        "type": "lockPref",
-        "key": "security.tls.version.fallback-limit",
-        "value": 3,
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1084025",
-            "https://github.com/pyllyukko/user.js/pull/206#issuecomment-280229645"
-        ]
-    },
-
-    {
-        "comments": "Only allow TLS 1.[0-3]",
-        "type": "lockPref",
-        "key": "security.tls.version.min",
-        "value": 2,
-        "references": [
-            "http://kb.mozillazine.org/Security.tls.version.*"
-        ]
-    },
-
-    {
-        "comments": "Enfore Public Key Pinning",
-        "notes": "2. Strict. Pinning is always enforced.",
-        "type": "lockPref",
-        "key": "security.cert_pinning.enforcement_level",
-        "value": 2,
-        "references": [
-            "https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning",
-            "https://wiki.mozilla.org/SecurityEngineering/Public_Key_Pinning"
-        ]
-    },
-
-    {
-        "comments": "Disallow SHA-1",
-        "type": "lockPref",
-        "key": "security.pki.sha1_enforcement_level",
-        "value": 1,
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1302140",
-            "https://shattered.io/"
-        ]
-    },
-
-    {
-        "comments": "Warn the user when server doesn't support RFC 5746 ('safe' renegotiation)",
-        "type": "lockPref",
-        "key": "security.ssl.treat_unsafe_negotiation_as_broken",
-        "value": true,
-        "references": [
-            "https://wiki.mozilla.org/Security:Renegotiation#security.ssl.treat_unsafe_negotiation_as_broken",
-            "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3555"
-        ]
-    },
-
-    {
-        "comments": "Pre-populate the current URL but do not pre-fetch the certificate in the 'Add Security Exception' dialog",
-        "type": "lockPref",
-        "key": "browser.ssl_override_behavior",
-        "value": 1,
-        "references": [
-            "http://kb.mozillazine.org/Browser.ssl_override_behavior",
-            "https://github.com/pyllyukko/user.js/issues/210"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.ssl.errorReporting.automatic",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.ssl.errorReporting.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "notes": "OCSP leaks the visited sites. Exactly same issue as with safebrowsing.",
-        "type": "lockPref",
-        "key": "security.OCSP.enabled",
-        "value": 0
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.OCSP.require",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "notes": "Stapling forces the site to prove that its certificate is good through the CA, so apparently nothing is leaked in this case.",
-        "type": "lockPref",
-        "key": "security.ssl.enable_ocsp_stapling",
-        "value": true,
-        "references": [
-            "https://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox/"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.ssl.errorReporting.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "Manage certificates button",
-        "notes": "Disabled because of a bug that disables the button regardless of its value",
-        "type": "lockPref",
-        "key": "security.disable_button.openCertManager",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "Manage security devices button",
-        "notes": "Disabled because of a bug that disables the button regardless of its value",
-        "type": "lockPref",
-        "key": "security.disable_button.openDeviceManager",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.mixed_content.upgrade_display_content",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.mixed_content.block_object_subrequest",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.mixed_content.block_display_content",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.mixed_content.block_active_content",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.insecure_connection_icon.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.insecure_connection_icon.pbmode.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.insecure_connection_text.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.ssl3.rsa_des_ede3_sha",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.ssl3.rsa_aes_256_sha",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "security.ssl3.rsa_aes_128_sha",
-        "value": false
-    },
-
-    {
-        "comments": "Disable RC4",
-        "type": "lockPref",
-        "key": "security.ssl3.ecdh_ecdsa_rc4_128_sha",
-        "value": false,
-        "references": [
-            "https://developer.mozilla.org/en-US/Firefox/Releases/38#Security",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1138882",
-            "https://rc4.io/",
-            "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2566"
-        ]
-    },
-
-    {
-        "comments": "Disable RC4",
-        "type": "lockPref",
-        "key": "security.ssl3.ecdh_rsa_rc4_128_sha",
-        "value": false,
-        "references": [
-            "https://developer.mozilla.org/en-US/Firefox/Releases/38#Security",
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1138882",
-            "https://rc4.io/",
-            "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2566"
-        ]
-    },
-
-    {
-        "comments": "Disable SEED cipher",
-        "type": "lockPref",
-        "key": "security.ssl3.rsa_seed_sha",
-        "value": false,
-        "references": [
-            "https://en.wikipedia.org/wiki/SEED"
-        ]
-    }
-]
+{
+    "name": "Security",
+    "subcategory": "",
+    "notes": "",
+    "section": [
+        {
+            "comments": "Enable insecure password warnings (login forms in non-HTTPS pages)",
+            "type": "lockPref",
+            "key": "security.insecure_password.ui.enabled",
+            "value": true,
+            "references": [
+                "https://blog.mozilla.org/tanvi/2016/01/28/no-more-passwords-over-http-please/",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1319119",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1217156"
+            ]
+        },
+        {
+            "comments": "Show in-content login form warning UI for insecure login fields",
+            "type": "lockPref",
+            "key": "security.insecure_field_warning.contextual.enabled",
+            "value": true,
+            "references": [
+                "https://hg.mozilla.org/integration/mozilla-inbound/rev/f0d146fe7317"
+            ]
+        },
+        {
+            "comments": "Disable HSTS preload list (pre-set HSTS sites list provided by Mozilla)",
+            "type": "lockPref",
+            "key": "network.stricttransportsecurity.preloadlist",
+            "value": false,
+            "references": [
+                "https://blog.mozilla.org/security/2012/11/01/preloading-hsts/",
+                "https://wiki.mozilla.org/Privacy/Features/HSTS_Preload_List",
+                "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security"
+            ]
+        },
+        {
+            "comments": "Disable TLS Session Tickets",
+            "notes": "SSL Session IDs speed up HTTPS connections (no need to renegotiate) and last for 48hrs. Since the ID is unique, web servers can (and do) use it for tracking. If set to true, this disables sending SSL Session IDs and TLS Session Tickets to prevent session tracking",
+            "type": "lockPref",
+            "key": "security.ssl.disable_session_identifiers",
+            "value": true,
+            "references": [
+                "https://www.blackhat.com/us-13/briefings.html#NextGen",
+                "https://media.blackhat.com/us-13/US-13-Daigniere-TLS-Secrets-Slides.pdf",
+                "https://media.blackhat.com/us-13/US-13-Daigniere-TLS-Secrets-WP.pdf",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=917049",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=967977"
+            ]
+        },
+        {
+            "comments": "Blocking GD Parking Scam Site",
+            "notes": "TODO: do we still need this? librefox.com isn't relevant anymore and this pretty much only tells LibreWolf to look for librefox.com locally",
+            "type": "defaultPref",
+            "key": "network.dns.localDomains",
+            "value": "librefox.com"
+        },
+        {
+            "comments": "Disable insecure TLS version fallback",
+            "type": "lockPref",
+            "key": "security.tls.version.fallback-limit",
+            "value": 3,
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1084025",
+                "https://github.com/pyllyukko/user.js/pull/206#issuecomment-280229645"
+            ]
+        },
+        {
+            "comments": "Only allow TLS 1.[0-3]",
+            "type": "lockPref",
+            "key": "security.tls.version.min",
+            "value": 2,
+            "references": [
+                "http://kb.mozillazine.org/Security.tls.version.*"
+            ]
+        },
+        {
+            "comments": "Enfore Public Key Pinning",
+            "notes": "2. Strict. Pinning is always enforced.",
+            "type": "lockPref",
+            "key": "security.cert_pinning.enforcement_level",
+            "value": 2,
+            "references": [
+                "https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning",
+                "https://wiki.mozilla.org/SecurityEngineering/Public_Key_Pinning"
+            ]
+        },
+        {
+            "comments": "Disallow SHA-1",
+            "type": "lockPref",
+            "key": "security.pki.sha1_enforcement_level",
+            "value": 1,
+            "references": [
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1302140",
+                "https://shattered.io/"
+            ]
+        },
+        {
+            "comments": "Warn the user when server doesn't support RFC 5746 ('safe' renegotiation)",
+            "type": "lockPref",
+            "key": "security.ssl.treat_unsafe_negotiation_as_broken",
+            "value": true,
+            "references": [
+                "https://wiki.mozilla.org/Security:Renegotiation#security.ssl.treat_unsafe_negotiation_as_broken",
+                "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3555"
+            ]
+        },
+        {
+            "comments": "Pre-populate the current URL but do not pre-fetch the certificate in the 'Add Security Exception' dialog",
+            "type": "lockPref",
+            "key": "browser.ssl_override_behavior",
+            "value": 1,
+            "references": [
+                "http://kb.mozillazine.org/Browser.ssl_override_behavior",
+                "https://github.com/pyllyukko/user.js/issues/210"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.ssl.errorReporting.automatic",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.ssl.errorReporting.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "notes": "OCSP leaks the visited sites. Exactly same issue as with safebrowsing.",
+            "type": "lockPref",
+            "key": "security.OCSP.enabled",
+            "value": 0
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.OCSP.require",
+            "value": false
+        },
+        {
+            "comments": "",
+            "notes": "Stapling forces the site to prove that its certificate is good through the CA, so apparently nothing is leaked in this case.",
+            "type": "lockPref",
+            "key": "security.ssl.enable_ocsp_stapling",
+            "value": true,
+            "references": [
+                "https://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox/"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.ssl.errorReporting.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "Manage certificates button",
+            "notes": "Disabled because of a bug that disables the button regardless of its value",
+            "type": "lockPref",
+            "key": "security.disable_button.openCertManager",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "Manage security devices button",
+            "notes": "Disabled because of a bug that disables the button regardless of its value",
+            "type": "lockPref",
+            "key": "security.disable_button.openDeviceManager",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.mixed_content.upgrade_display_content",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.mixed_content.block_object_subrequest",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.mixed_content.block_display_content",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.mixed_content.block_active_content",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.insecure_connection_icon.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.insecure_connection_icon.pbmode.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.insecure_connection_text.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.ssl3.rsa_des_ede3_sha",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.ssl3.rsa_aes_256_sha",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "security.ssl3.rsa_aes_128_sha",
+            "value": false
+        },
+        {
+            "comments": "Disable RC4",
+            "type": "lockPref",
+            "key": "security.ssl3.ecdh_ecdsa_rc4_128_sha",
+            "value": false,
+            "references": [
+                "https://developer.mozilla.org/en-US/Firefox/Releases/38#Security",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1138882",
+                "https://rc4.io/",
+                "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2566"
+            ]
+        },
+        {
+            "comments": "Disable RC4",
+            "type": "lockPref",
+            "key": "security.ssl3.ecdh_rsa_rc4_128_sha",
+            "value": false,
+            "references": [
+                "https://developer.mozilla.org/en-US/Firefox/Releases/38#Security",
+                "https://bugzilla.mozilla.org/show_bug.cgi?id=1138882",
+                "https://rc4.io/",
+                "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2566"
+            ]
+        },
+        {
+            "comments": "Disable SEED cipher",
+            "type": "lockPref",
+            "key": "security.ssl3.rsa_seed_sha",
+            "value": false,
+            "references": [
+                "https://en.wikipedia.org/wiki/SEED"
+            ]
+        }
+    ]
+}

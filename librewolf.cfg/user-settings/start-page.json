@@ -1,37 +1,37 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.feeds.section.highlights",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.section.highlights.includeBookmarks",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.section.highlights.includeDownloads",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.section.highlights.includeVisited",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.newtabpage.activity-stream.prerender",
-        "value": false
-    }
-]
+{
+    "name": "Start Page",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.feeds.section.highlights",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.section.highlights.includeBookmarks",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.section.highlights.includeDownloads",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.section.highlights.includeVisited",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.prerender",
+            "value": false
+        }
+    ]
+}

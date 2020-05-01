@@ -1,16 +1,20 @@
-[
+{
+    "name": "Do Not Track",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "privacy.donottrackheader.enabled",
+            "value": true
+        },
 
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "privacy.donottrackheader.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "privacy.donottrackheader.value",
-        "value": 1
-    }
-]
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "privacy.donottrackheader.value",
+            "value": 1
+        }
+    ]
+}

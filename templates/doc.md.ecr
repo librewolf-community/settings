@@ -1,0 +1,39 @@
+---
+title: <%= setting_json.name %>
+---
+
+<%- unless setting_json.notes.blank? -%>
+  <%= setting_json.notes -%>
+<%- end -%>
+
+<%- setting_json.section.each do |setting| -%>
+  <%-= "##" %> `<%= setting.key %>`
+
+  <%- if setting.enabled.try &.==(false) -%>
+**Unused Setting**
+
+  <%- end -%>
+  <%-= "Status: #{setting.setting_type == "lockPref" ? "**locked**" : "**unlocked**"}" %>
+
+  <%- if value = setting.value.is_a?(Bool) || setting.value.is_a?(Int32) -%>
+  <%-= "Value: `#{setting.value}`" %>
+  <%- else -%>
+  <%-= "Value: `\"#{setting.value}\"`" %>
+  <%- end -%>
+
+  <%- unless setting.comments.blank? -%>
+    <%-= "*#{setting.comments}*" %>
+
+  <%- end -%>
+
+  <%- references = setting.references -%>
+  <%- if references && !references.empty? %>
+### References
+
+    <%- references.each do |reference| -%>
+      <%-= "[#{reference}]" -%>(<%= reference %>)
+
+    <%- end -%>
+
+  <%- end -%>
+<%- end -%>

@@ -1,16 +1,19 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "dom.disable_beforeunload",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "permissions.default.geo",
-        "value": 2
-    }
-]
+{
+    "name": "Miscellaneous",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "dom.disable_beforeunload",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "permissions.default.geo",
+            "value": 2
+        }
+    ]
+}

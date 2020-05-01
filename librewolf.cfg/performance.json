@@ -1,222 +1,202 @@
-[
-
-    {
-        "comments": "Increases animation speed",
-        "notes": "May mitigate choppy scrolling",
-        "type": "defaultPref",
-        "key": "layout.frame_rate.precise",
-        "value": true
-    },
-
-    {
-        "comments": "Enable Hardware Acceleration and Off Main Thread Compositing (OMTC)",
-        "notes": "It's likely your browser is already set to use these features. May introduce instability on some hardware. Tor compatibility - have inverted values in tor.",
-        "type": "defaultPref",
-        "key": "webgl.force-enabled",
-        "value": true
-    },
-
-    {
-        "comments": "Enable Hardware Acceleration and Off Main Thread Compositing (OMTC)",
-        "notes": "It's likely your browser is already set to use these features. May introduce instability on some hardware. Tor compatibility - have inverted values in tor.",
-        "type": "defaultPref",
-        "key": "layers.acceleration.force-enabled",
-        "value": true
-    },
-
-    {
-        "comments": "Disable hardware acceleration to reduce graphics fingerprinting",
-        "notes": "[WINDOWS]\nAffects text rendering (fonts will look different) and impacts video performance. Parts of Quantum that utilize the GPU will also be affected as they are rolled out\nGeneral>Performance>Custom>Use hardware acceleration when available",
-        "type": "defaultPref",
-        "key": "gfx.direct2d.disabled",
-        "value": false,
-        "references": [
-            "https://wiki.mozilla.org/Platform/GFX/HardwareAcceleration"
-        ]
-    },
-
-    {
-        "comments": "Disable hardware acceleration to reduce graphics fingerprinting",
-        "notes": "Affects text rendering (fonts will look different) and impacts video performance. Parts of Quantum that utilize the GPU will also be affected as they are rolled out\nGeneral>Performance>Custom>Use hardware acceleration when available",
-        "type": "defaultPref",
-        "key": "layers.acceleration.disabled",
-        "value": false,
-        "references": [
-            "https://wiki.mozilla.org/Platform/GFX/HardwareAcceleration"
-        ]
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "html5.offmainthread",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "layers.offmainthreadcomposition.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "layers.offmainthreadcomposition.async-animations",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "layers.async-video.enabled",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Deprecated Active",
-        "type": "defaultPref",
-        "key": "browser.tabs.animate",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "notes": "The impact for this one is negligible",
-        "type": "defaultPref",
-        "key": "browser.download.animateNotifications",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "Spoof CPU Core Def 16",
-        "notes": "Default settings seems to be the best",
-        "type": "defaultPref",
-        "key": "dom.maxHardwareConcurrency",
-        "value": 8
-    },
-
-    {
-        "enabled": false,
-        "comments": "Tell garbage collector to start running when javascript is using xx MB of memory.",
-        "notes": "Garbage collection releases memory back to the system. Default settings seems to be the best",
-        "type": "lockPref",
-        "key": "javascript.options.mem.high_water_mark",
-        "value": 96
-    },
-
-    {
-        "enabled": false,
-        "comments": "Disable WebAssembly",
-        "notes": "Solved by extension disabled here for performance",
-        "type": "lockPref",
-        "key": "javascript.options.wasm",
-        "value": false,
-        "references": [
-            "https://webassembly.org/",
-            "https://en.wikipedia.org/wiki/WebAssembly",
-            "https://trac.torproject.org/projects/tor/ticket/21549"
-        ]
-    },
-
-    {
-        "enabled": false,
-        "comments": "Prevent font fingerprinting",
-        "notes": "Solved by extension disabled here for performance",
-        "type": "lockPref",
-        "key": "browser.display.use_document_fonts",
-        "value": 0,
-        "references": [
-            "https://browserleaks.com/fonts",
-            "https://github.com/pyllyukko/user.js/issues/120"
-        ]
-    },
-
-    {
-        "comments": "",
-        "notes": "WebGL introduces high fingerprinting (WebGL is a js API for directly accessing hardware). Tor has it as `false` but the rest is the same.",
-        "type": "defaultPref",
-        "key": "webgl.disabled",
-        "value": false
-    },
-
-    {
-        "comments": "This prevents WebGL data leaks",
-        "type": "lockPref",
-        "key": "webgl.enable-webgl2",
-        "value": false
-    },
-
-    {
-        "comments": "This prevents WebGL data leaks",
-        "type": "lockPref",
-        "key": "webgl.min_capability_mode",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "pdfjs.enableWebGL",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "webgl.disable-extensions",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "webgl.disable-fail-if-major-performance-caveat",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "notes": "Deprecated Active",
-        "type": "lockPref",
-        "key": "webgl.enable-debug-renderer-info",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "Disable asm.js",
-        "notes": "Solved by extension disabled here for performance. Tor enforces this.",
-        "type": "lockPref",
-        "key": "javascript.options.asmjs",
-        "value": false,
-        "references": [
-            "http://asmjs.org/",
-            "https://www.mozilla.org/en-US/security/advisories/mfsa2015-29/",
-            "https://www.mozilla.org/en-US/security/advisories/mfsa2015-50/",
-            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2712"
-        ]
-    },
-
-    {
-        "comments": "JS Shared Memory",
-        "type": "lockPref",
-        "key": "javascript.options.shared_memory",
-        "value": false,
-        "references": [
-            "https://github.com/MrAlex94/Waterfox/issues/356"
-        ]
-    },
-
-    {
-        "comments": "Disable service workers",
-        "notes": "Service workers essentially act as proxy servers that sit between web apps, and the browser and network. They are event-driven, and can control the web page/site it is associated with, intercepting and modifying navigation and resource requests, and caching resources. SW may decrease performance depending on the script that is running in background. So overall, disabling SW should enhance performance because it blocks SW Scripts.\nService worker APIs are hidden (in Firefox) and cannot be used when in PB mode.\nService workers only run over HTTPS. Service Workers have no DOM access.",
-        "type": "lockPref",
-        "key": "dom.serviceWorkers.enabled",
-        "value": false
-    }
-]
+{
+    "name": "Performance",
+    "subcategory": "",
+    "notes": "",
+    "section": [
+        {
+            "comments": "Increases animation speed",
+            "notes": "May mitigate choppy scrolling",
+            "type": "defaultPref",
+            "key": "layout.frame_rate.precise",
+            "value": true
+        },
+        {
+            "comments": "Enable Hardware Acceleration and Off Main Thread Compositing (OMTC)",
+            "notes": "It's likely your browser is already set to use these features. May introduce instability on some hardware. Tor compatibility - have inverted values in tor.",
+            "type": "defaultPref",
+            "key": "webgl.force-enabled",
+            "value": true
+        },
+        {
+            "comments": "Enable Hardware Acceleration and Off Main Thread Compositing (OMTC)",
+            "notes": "It's likely your browser is already set to use these features. May introduce instability on some hardware. Tor compatibility - have inverted values in tor.",
+            "type": "defaultPref",
+            "key": "layers.acceleration.force-enabled",
+            "value": true
+        },
+        {
+            "comments": "Disable hardware acceleration to reduce graphics fingerprinting",
+            "notes": "[WINDOWS]\nAffects text rendering (fonts will look different) and impacts video performance. Parts of Quantum that utilize the GPU will also be affected as they are rolled out\nGeneral>Performance>Custom>Use hardware acceleration when available",
+            "type": "defaultPref",
+            "key": "gfx.direct2d.disabled",
+            "value": false,
+            "references": [
+                "https://wiki.mozilla.org/Platform/GFX/HardwareAcceleration"
+            ]
+        },
+        {
+            "comments": "Disable hardware acceleration to reduce graphics fingerprinting",
+            "notes": "Affects text rendering (fonts will look different) and impacts video performance. Parts of Quantum that utilize the GPU will also be affected as they are rolled out\nGeneral>Performance>Custom>Use hardware acceleration when available",
+            "type": "defaultPref",
+            "key": "layers.acceleration.disabled",
+            "value": false,
+            "references": [
+                "https://wiki.mozilla.org/Platform/GFX/HardwareAcceleration"
+            ]
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "html5.offmainthread",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "layers.offmainthreadcomposition.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "layers.offmainthreadcomposition.async-animations",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "layers.async-video.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Deprecated Active",
+            "type": "defaultPref",
+            "key": "browser.tabs.animate",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "notes": "The impact for this one is negligible",
+            "type": "defaultPref",
+            "key": "browser.download.animateNotifications",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "Spoof CPU Core Def 16",
+            "notes": "Default settings seems to be the best",
+            "type": "defaultPref",
+            "key": "dom.maxHardwareConcurrency",
+            "value": 8
+        },
+        {
+            "enabled": false,
+            "comments": "Tell garbage collector to start running when javascript is using xx MB of memory.",
+            "notes": "Garbage collection releases memory back to the system. Default settings seems to be the best",
+            "type": "lockPref",
+            "key": "javascript.options.mem.high_water_mark",
+            "value": 96
+        },
+        {
+            "enabled": false,
+            "comments": "Disable WebAssembly",
+            "notes": "Solved by extension disabled here for performance",
+            "type": "lockPref",
+            "key": "javascript.options.wasm",
+            "value": false,
+            "references": [
+                "https://webassembly.org/",
+                "https://en.wikipedia.org/wiki/WebAssembly",
+                "https://trac.torproject.org/projects/tor/ticket/21549"
+            ]
+        },
+        {
+            "enabled": false,
+            "comments": "Prevent font fingerprinting",
+            "notes": "Solved by extension disabled here for performance",
+            "type": "lockPref",
+            "key": "browser.display.use_document_fonts",
+            "value": 0,
+            "references": [
+                "https://browserleaks.com/fonts",
+                "https://github.com/pyllyukko/user.js/issues/120"
+            ]
+        },
+        {
+            "comments": "",
+            "notes": "WebGL introduces high fingerprinting (WebGL is a js API for directly accessing hardware). Tor has it as `false` but the rest is the same.",
+            "type": "defaultPref",
+            "key": "webgl.disabled",
+            "value": false
+        },
+        {
+            "comments": "This prevents WebGL data leaks",
+            "type": "lockPref",
+            "key": "webgl.enable-webgl2",
+            "value": false
+        },
+        {
+            "comments": "This prevents WebGL data leaks",
+            "type": "lockPref",
+            "key": "webgl.min_capability_mode",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "pdfjs.enableWebGL",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "webgl.disable-extensions",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "webgl.disable-fail-if-major-performance-caveat",
+            "value": true
+        },
+        {
+            "comments": "",
+            "notes": "Deprecated Active",
+            "type": "lockPref",
+            "key": "webgl.enable-debug-renderer-info",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "Disable asm.js",
+            "notes": "Solved by extension disabled here for performance. Tor enforces this.",
+            "type": "lockPref",
+            "key": "javascript.options.asmjs",
+            "value": false,
+            "references": [
+                "http://asmjs.org/",
+                "https://www.mozilla.org/en-US/security/advisories/mfsa2015-29/",
+                "https://www.mozilla.org/en-US/security/advisories/mfsa2015-50/",
+                "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2712"
+            ]
+        },
+        {
+            "comments": "JS Shared Memory",
+            "type": "lockPref",
+            "key": "javascript.options.shared_memory",
+            "value": false,
+            "references": [
+                "https://github.com/MrAlex94/Waterfox/issues/356"
+            ]
+        },
+        {
+            "comments": "Disable service workers",
+            "notes": "Service workers essentially act as proxy servers that sit between web apps, and the browser and network. They are event-driven, and can control the web page/site it is associated with, intercepting and modifying navigation and resource requests, and caching resources. SW may decrease performance depending on the script that is running in background. So overall, disabling SW should enhance performance because it blocks SW Scripts.\nService worker APIs are hidden (in Firefox) and cannot be used when in PB mode.\nService workers only run over HTTPS. Service Workers have no DOM access.",
+            "type": "lockPref",
+            "key": "dom.serviceWorkers.enabled",
+            "value": false
+        }
+    ]
+}

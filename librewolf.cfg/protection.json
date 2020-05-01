@@ -1,9 +1,13 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "general.config.filename",
-        "value": "librewolf.cfg"
-    }
-]
+{
+    "name": "Protection",
+    "subcategory": "",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "general.config.filename",
+            "value": "librewolf.cfg"
+        }
+    ]
+}

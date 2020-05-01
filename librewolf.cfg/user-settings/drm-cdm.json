@@ -1,115 +1,104 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.eme.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-provider.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-manager.url",
-        "value": "data:text/plain,"
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-manager.url.override",
-        "value": "data:text/plain,"
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-manager.updateEnabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp.trial-create.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-widevinecdm.visible",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-widevinecdm.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-widevinecdm.autoupdate",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-gmpopenh264.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-gmpopenh264.autoupdate",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "media.peerconnection.video.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-eme-adobe.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-manager.certs.2.commonName",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.gmp-manager.certs.1.commonName",
-        "value": ""
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "media.peerconnection.video.h264",
-        "value": true
-    }
-]
+{
+    "name": "DRM/CDM",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.eme.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-provider.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-manager.url",
+            "value": "data:text/plain,"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-manager.url.override",
+            "value": "data:text/plain,"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-manager.updateEnabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp.trial-create.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-widevinecdm.visible",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-widevinecdm.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-widevinecdm.autoupdate",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-gmpopenh264.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-gmpopenh264.autoupdate",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "media.peerconnection.video.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-eme-adobe.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-manager.certs.2.commonName",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.gmp-manager.certs.1.commonName",
+            "value": ""
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.peerconnection.video.h264",
+            "value": true
+        }
+    ]
+}

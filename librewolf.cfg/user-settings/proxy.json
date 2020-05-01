@@ -1,17 +1,22 @@
-[
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.proxy.autoconfig_url.include_path",
-        "value": false
-    },
+{
+    "name": "Proxy",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.proxy.autoconfig_url.include_path",
+            "value": false
+        },
 
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.proxy.socks_remote_dns",
-        "value": true
-    }
-]
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.proxy.socks_remote_dns",
+            "value": true
+        }
+    ]
+}

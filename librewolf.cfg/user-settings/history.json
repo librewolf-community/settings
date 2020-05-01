@@ -1,155 +1,160 @@
-[
+{
+    "name": "History",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
 
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.sessionhistory.max_entries",
-        "value": 20
-    },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.sessionhistory.max_entries",
+            "value": 20
+        },
 
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.filter.javascript",
-        "value": true
-    },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.filter.javascript",
+            "value": true
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "browser.uiCustomization.state",
-        "value": "{\"placements\":{\"widget-overflow-fixed-list\":[],\"nav-bar\":[\"home-button\",\"downloads-button\",\"back-button\",\"forward-button\",\"stop-reload-button\",\"urlbar-container\",\"add-ons-button\",\"preferences-button\",\"fxa-toolbar-menu-button\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"PersonalToolbar\":[\"personal-bookmarks\"]},\"seen\":[\"developer-button\"],\"dirtyAreaCache\":[\"nav-bar\",\"toolbar-menubar\",\"TabsToolbar\",\"PersonalToolbar\"],\"currentVersion\":16,\"newElementCount\":3}"
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "browser.uiCustomization.state",
+            "value": "{\"placements\":{\"widget-overflow-fixed-list\":[],\"nav-bar\":[\"home-button\",\"downloads-button\",\"back-button\",\"forward-button\",\"stop-reload-button\",\"urlbar-container\",\"add-ons-button\",\"preferences-button\",\"fxa-toolbar-menu-button\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"PersonalToolbar\":[\"personal-bookmarks\"]},\"seen\":[\"developer-button\"],\"dirtyAreaCache\":[\"nav-bar\",\"toolbar-menubar\",\"TabsToolbar\",\"PersonalToolbar\"],\"currentVersion\":16,\"newElementCount\":3}"
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "browser.uidensity",
-        "value": 2
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "browser.uidensity",
+            "value": 2
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "browser.tabs.drawInTitlebar",
-        "value": true
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "browser.tabs.drawInTitlebar",
+            "value": true
+        },
 
-    {
-        "comments": "",
-        "type": "pref",
-        "key": "startup.homepage_override_url",
-        "value": "about:blank"
-    },
+        {
+            "comments": "",
+            "type": "pref",
+            "key": "startup.homepage_override_url",
+            "value": "about:blank"
+        },
 
-    {
-        "comments": "",
-        "type": "pref",
-        "key": "startup.homepage_welcome_url",
-        "value": "about:blank"
-    },
+        {
+            "comments": "",
+            "type": "pref",
+            "key": "startup.homepage_welcome_url",
+            "value": "about:blank"
+        },
 
-    {
-        "comments": "",
-        "type": "pref",
-        "key": "startup.homepage_welcome_url.additional",
-        "value": ""
-    },
+        {
+            "comments": "",
+            "type": "pref",
+            "key": "startup.homepage_welcome_url.additional",
+            "value": ""
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.clearOnShutdown.offlineApps",
-        "value": true
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.clearOnShutdown.offlineApps",
+            "value": true
+        },
 
-    {
-        "comments": "Offline Website Data",
-        "type": "defaultPref",
-        "key": "privacy.cpd.offlineApps",
-        "value": true
-    },
+        {
+            "comments": "Offline Website Data",
+            "type": "defaultPref",
+            "key": "privacy.cpd.offlineApps",
+            "value": true
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.sanitize.timeSpan",
-        "value": 0
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.sanitize.timeSpan",
+            "value": 0
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "browser.formfill.enable",
-        "value": false
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "browser.formfill.enable",
+            "value": false
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.sanitize.sanitizeOnShutdown",
-        "value": true
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.sanitize.sanitizeOnShutdown",
+            "value": true
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "places.history.enabled",
-        "value": false
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "places.history.enabled",
+            "value": false
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "places.history.expiration.max_pages",
-        "value": 2147483647
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "places.history.expiration.max_pages",
+            "value": 2147483647
+        },
 
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.history.custom",
-        "value": true
-    },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.history.custom",
+            "value": true
+        },
 
-    {
-        "enabled": false,
-        "comments": "Clear session data",
-        "type": "defaultPref",
-        "key": "privacy.cpd.openWindows",
-        "value": true
-    },
+        {
+            "enabled": false,
+            "comments": "Clear session data",
+            "type": "defaultPref",
+            "key": "privacy.cpd.openWindows",
+            "value": true
+        },
 
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.clearOnShutdown.openWindows",
-        "value": true
-    },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.clearOnShutdown.openWindows",
+            "value": true
+        },
 
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "defaultPref",
-        "key": "privacy.sanitize.pending",
-        "value": "[{\"id\":\"shutdown\",\"itemsToClear\":[\"cache\",\"cookies\",\"history\",\"formdata\",\"downloads\"],\"options\":{}}]"
-    },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "defaultPref",
+            "key": "privacy.sanitize.pending",
+            "value": "[{\"id\":\"shutdown\",\"itemsToClear\":[\"cache\",\"cookies\",\"history\",\"formdata\",\"downloads\"],\"options\":{}}]"
+        },
 
-    {
-        "enabled": false,
-        "comments": "",
-        "notes": "Hidden pref",
-        "type": "lockPref",
-        "key": "permissions.memory_only",
-        "value": true
-    },
+        {
+            "enabled": false,
+            "comments": "",
+            "notes": "Hidden pref",
+            "type": "lockPref",
+            "key": "permissions.memory_only",
+            "value": true
+        },
 
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.formfill.expire_days",
-        "value": 0
-    }
-]
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.formfill.expire_days",
+            "value": 0
+        }
+    ]
+}

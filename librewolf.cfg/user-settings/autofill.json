@@ -1,60 +1,57 @@
-[
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.formautofill.addresses.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.formautofill.available",
-        "value": "off"
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.formautofill.creditCards.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "extensions.formautofill.heuristics.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "signon.autofillForms",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "signon.autofillForms.http",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.autoFill",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.urlbar.autoFill.typed",
-        "value": false
-    }
-]
+{
+    "name": "Autofill",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.formautofill.addresses.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.formautofill.available",
+            "value": "off"
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.formautofill.creditCards.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "extensions.formautofill.heuristics.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "signon.autofillForms",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "signon.autofillForms.http",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.autoFill",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.autoFill.typed",
+            "value": false
+        }
+    ]
+}

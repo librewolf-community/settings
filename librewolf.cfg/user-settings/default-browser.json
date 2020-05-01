@@ -1,9 +1,14 @@
-[
+{
+    "name": "Default Browser",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
 
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.shell.checkDefaultBrowser",
-        "value": false
-    }
-]
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.shell.checkDefaultBrowser",
+            "value": false
+        }
+    ]
+}

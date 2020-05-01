@@ -1,166 +1,149 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "privacy.trackingprotection.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "privacy.trackingprotection.annotate_channels",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "privacy.trackingprotection.lower_network_priority",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "privacy.trackingprotection.pbmode.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "urlclassifier.trackingTable",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "pref.privacy.disable_button.change_blocklist",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.reportBreakage.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.reportBreakage.url",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.rejecttrackers.reportBreakage.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.rejecttrackers.ui.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.trackingprotection.control-center.ui.enabled",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.trackingprotection.ui.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.global-toggle.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.rejecttrackers.ui.recommended",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.fastblock.ui.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.fastblock.control-center.ui.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.allowlist.annotations.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.allowlist.storage.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "pref.privacy.disable_button.tracking_protection_exceptions",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.rejecttrackers.control-center.ui.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.ui.enabled",
-        "value": false
-    },
-
-    {
-        "enabled": false,
-        "comments": "",
-        "type": "lockPref",
-        "key": "browser.contentblocking.enabled",
-        "value": false
-    }
-]
+{
+    "name": "Tracking Protection",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "privacy.trackingprotection.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "privacy.trackingprotection.annotate_channels",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "privacy.trackingprotection.lower_network_priority",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "privacy.trackingprotection.pbmode.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "urlclassifier.trackingTable",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "pref.privacy.disable_button.change_blocklist",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.reportBreakage.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.reportBreakage.url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.rejecttrackers.reportBreakage.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.rejecttrackers.ui.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.trackingprotection.control-center.ui.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.trackingprotection.ui.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.global-toggle.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.rejecttrackers.ui.recommended",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.fastblock.ui.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.fastblock.control-center.ui.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.allowlist.annotations.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.allowlist.storage.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "pref.privacy.disable_button.tracking_protection_exceptions",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.rejecttrackers.control-center.ui.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.ui.enabled",
+            "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.contentblocking.enabled",
+            "value": false
+        }
+    ]
+}

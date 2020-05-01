@@ -1,23 +1,25 @@
-[
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "xpinstall.signatures.required",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "toolkit.legacyUserProfileCustomizations.stylesheets",
-        "value": false
-    },
-
-    {
-        "comments": "",
-        "type": "defaultPref",
-        "key": "devtools.selfxss.count",
-        "value": 0
-    }
-]
+{
+    "name": "Inactive",
+    "subcategory": "Deprecated",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "xpinstall.signatures.required",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "toolkit.legacyUserProfileCustomizations.stylesheets",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
+            "key": "devtools.selfxss.count",
+            "value": 0
+        }
+    ]
+}

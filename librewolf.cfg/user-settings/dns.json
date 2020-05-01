@@ -1,44 +1,43 @@
-[
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.trr.mode",
-        "value": 5
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.trr.bootstrapAddress",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.trr.uri",
-        "value": ""
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.dns.disableIPv6",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.dns.disablePrefetch",
-        "value": true
-    },
-
-    {
-        "comments": "",
-        "type": "lockPref",
-        "key": "network.dns.disablePrefetchFromHTTPS",
-        "value": true
-    }
-]
+{
+    "name": "DNS",
+    "subcategory": "User Settings",
+    "notes": "",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.trr.mode",
+            "value": 5
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.trr.bootstrapAddress",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.trr.uri",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.dns.disableIPv6",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.dns.disablePrefetch",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.dns.disablePrefetchFromHTTPS",
+            "value": true
+        }
+    ]
+}

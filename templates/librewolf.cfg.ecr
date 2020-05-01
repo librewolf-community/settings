@@ -1,0 +1,34 @@
+<%- main_settings.each do |setting_json| -%>
+  <%- unless setting_json == main_settings.first -%>
+    <%-= "\n" %>
+  <%- end -%>
+  <%-= "// #{setting_json.name}" %>
+
+  <%- setting_json.section.each do |setting| -%>
+    <%- next if setting.enabled.try &.==(false) -%>
+    <%- if (setting.key.is_a?(Bool) || setting.key.is_a?(Int32)) -%>
+      <%-= setting.setting_type %>("<%= setting.key %>", <% setting.value %>);
+    <%- else -%>
+      <%-= setting.setting_type %>("<%= setting.key %>", "<% setting.value %>");
+    <%- end -%>
+  <%- end -%>
+<%- end -%>
+
+<%- subcategory_settings.each do |sub_key, sub_settings| -%>
+  <%- unless sub_key == subcategory_settings.keys.first -%>
+    <%-= "\n" -%>
+  <%- end -%>
+  <%-= "// #{sub_key}" %>
+  <%- sub_settings.each do |setting_json| %>
+    <%-= "// #{sub_key}: #{setting_json.name}" %>
+
+    <%- setting_json.section.each do |setting| -%>
+      <%- next if setting.enabled.try &.==(false) -%>
+      <%- if (setting.key.is_a?(Bool) || setting.key.is_a?(Int32)) -%>
+        <%-= setting.setting_type %>("<%= setting.key %>", <% setting.value %>);
+      <%- else -%>
+        <%-= setting.setting_type %>("<%= setting.key %>", "<% setting.value %>");
+      <%- end -%>
+    <%- end -%>
+  <%- end -%>
+<%- end -%>
