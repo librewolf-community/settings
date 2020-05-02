@@ -107,6 +107,19 @@ Value: `0`
 *Disable Java NPAPI plugin*
 
 
+## `trailhead.firstrun.branches`
+
+Status: **locked**
+
+Value: `"join-privacy"`
+
+
+
+### References
+
+[https://github.com/ghacksuserjs/ghacks-user.js/issues/743](https://github.com/ghacksuserjs/ghacks-user.js/issues/743)
+
+
 ## `services.blocklist.update_enabled`
 
 Status: **locked**

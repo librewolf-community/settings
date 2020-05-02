@@ -62,3 +62,12 @@ Status: **locked**
 Value: `false`
 
 
+## `network.http.spdy.websockets`
+
+**Unused Setting**
+
+Status: **locked**
+
+Value: `false`
+
+

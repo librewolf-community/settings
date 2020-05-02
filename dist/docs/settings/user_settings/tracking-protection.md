@@ -17,6 +17,13 @@ Status: **locked**
 Value: `false`
 
 
+## `privacy.trackingprotection.origin_telemetry.enabled`
+
+Status: **locked**
+
+Value: `false`
+
+
 ## `privacy.trackingprotection.lower_network_priority`
 
 Status: **locked**
@@ -25,6 +32,13 @@ Value: `false`
 
 
 ## `privacy.trackingprotection.pbmode.enabled`
+
+Status: **locked**
+
+Value: `false`
+
+
+## `telemetry.origin_telemetry_test_mode.enabled`
 
 Status: **locked**
 

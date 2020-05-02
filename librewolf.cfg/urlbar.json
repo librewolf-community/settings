@@ -1,0 +1,31 @@
+{
+    "name": "Urlbar",
+    "subcategory": "",
+    "notes": "Includes temporary fixes to disable the \"Megabar\" functionality.",
+    "section": [
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.openViewOnFocus",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.update1",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.update1.interventions",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.urlbar.update1.searchTips",
+            "value": false
+        }
+    ]
+}

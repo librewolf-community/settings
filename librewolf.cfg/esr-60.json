@@ -71,6 +71,15 @@
             "value": 0
         },
         {
+            "comments": "",
+            "type": "lockPref",
+            "key": "trailhead.firstrun.branches",
+            "value": "join-privacy",
+            "references": [
+                "https://github.com/ghacksuserjs/ghacks-user.js/issues/743"
+            ]
+        },
+        {
             "comments": "Enable Kinto blocklist updates (FF50+)",
             "notes": "As Firefox transitions to Kinto, the blocklists have been broken down into entries for certs to be revoked, extensions and plugins to be disabled, and gfx environments that cause problems or crashes",
             "type": "lockPref",

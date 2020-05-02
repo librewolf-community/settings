@@ -54,6 +54,13 @@ Status: **unlocked**
 Value: `2`
 
 
+## `browser.aboutConfig.showWarning`
+
+Status: **unlocked**
+
+Value: `false`
+
+
 ## `browser.download.autohideButton`
 
 Status: **unlocked**

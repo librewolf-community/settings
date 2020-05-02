@@ -7,7 +7,13 @@
             "comments": "",
             "type": "lockPref",
             "key": "media.autoplay.default",
-            "value": 2
+            "value": 5
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "media.autoplay.enabled.user-gestures-needed",
+            "value": false
         }
     ]
 }

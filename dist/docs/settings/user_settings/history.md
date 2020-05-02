@@ -155,6 +155,13 @@ Status: **locked**
 Value: `true`
 
 
+## `privacy.storagePrincipal.enabledForTrackers`
+
+Status: **locked**
+
+Value: `false`
+
+
 ## `browser.formfill.expire_days`
 
 **Unused Setting**

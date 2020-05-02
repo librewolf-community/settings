@@ -50,6 +50,12 @@
         {
             "comments": "",
             "type": "defaultPref",
+            "key": "browser.aboutConfig.showWarning",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "defaultPref",
             "key": "browser.download.autohideButton",
             "value": false
         },

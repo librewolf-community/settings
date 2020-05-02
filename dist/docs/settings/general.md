@@ -207,14 +207,14 @@ Value: `0`
 
 Status: **locked**
 
-Value: `""`
+Value: `"https://gitlab.com/librewolf-community/browser"`
 
 
 ## `app.update.url.manual`
 
 Status: **locked**
 
-Value: `""`
+Value: `"https://gitlab.com/librewolf-community/browser"`
 
 
 ## `app.vendorURL`
@@ -731,6 +731,33 @@ Status: **locked**
 Value: `""`
 
 
+## `geo.provider.ms-windows-location`
+
+Status: **locked**
+
+Value: `false`
+
+*Disable using the OS's geolocation service: Windows*
+
+
+## `geo.provider.use_corelocation`
+
+Status: **locked**
+
+Value: `false`
+
+*Disable using the OS's geolocation service: Mac*
+
+
+## `geo.provider.use_gpsd`
+
+Status: **locked**
+
+Value: `false`
+
+*Disable using the OS's geolocation service: Linux*
+
+
 ## `identity.fxaccounts.auth.uri`
 
 Status: **locked**
@@ -757,6 +784,27 @@ Value: `""`
 Status: **locked**
 
 Value: `""`
+
+
+## `remote.enabled`
+
+Status: **locked**
+
+Value: `false`
+
+
+## `remote.force-local`
+
+Status: **locked**
+
+Value: `true`
+
+
+## `remote.log.level`
+
+Status: **locked**
+
+Value: `"Info"`
 
 
 ## `layout.css.visited_links_enabled`
@@ -808,6 +856,41 @@ Value: `true`
 Status: **locked**
 
 Value: `false`
+
+
+## `network.connectivity-service.enabled`
+
+Status: **locked**
+
+Value: `false`
+
+
+## `network.connectivity-service.IPv6.url`
+
+Status: **locked**
+
+Value: `"http://0.0.0.0"`
+
+
+## `network.connectivity-service.IPv4.url`
+
+Status: **locked**
+
+Value: `"http://0.0.0.0"`
+
+
+## `network.connectivity-service.DNSv6.domain`
+
+Status: **locked**
+
+Value: `""`
+
+
+## `network.connectivity-service.DNSv4.domain`
+
+Status: **locked**
+
+Value: `""`
 
 
 ## `plugins.crash.supportUrl`
@@ -1092,6 +1175,13 @@ Status: **locked**
 Value: `true`
 
 *Disable telemetry*
+
+
+## `toolkit.telemetry.ecosystemtelemetry.enabled`
+
+Status: **locked**
+
+Value: `false`
 
 
 ## `webextensions.storage.sync.serverURL`
@@ -2380,5 +2470,26 @@ Value: `true`
 [https://support.mozilla.org/en-US/questions/973320](https://support.mozilla.org/en-US/questions/973320)
 
 [https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/browser.pagethumbnails.capturing_disabled](https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/browser.pagethumbnails.capturing_disabled)
+
+
+## `browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features`
+
+Status: **locked**
+
+Value: `false`
+
+
+## `browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons`
+
+Status: **locked**
+
+Value: `false`
+
+
+## `browser.messaging-system.whatsNewPanel.enabled`
+
+Status: **locked**
+
+Value: `false`
 
 

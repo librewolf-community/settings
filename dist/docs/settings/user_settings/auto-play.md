@@ -7,6 +7,13 @@ title: Autoplay
 
 Status: **locked**
 
-Value: `2`
+Value: `5`
+
+
+## `media.autoplay.enabled.user-gestures-needed`
+
+Status: **locked**
+
+Value: `false`
 
 

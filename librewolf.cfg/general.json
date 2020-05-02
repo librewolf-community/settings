@@ -176,13 +176,13 @@
             "comments": "",
             "type": "lockPref",
             "key": "app.update.url.details",
-            "value": ""
+            "value": "https://gitlab.com/librewolf-community/browser"
         },
         {
             "comments": "",
             "type": "lockPref",
             "key": "app.update.url.manual",
-            "value": ""
+            "value": "https://gitlab.com/librewolf-community/browser"
         },
         {
             "comments": "",
@@ -619,6 +619,24 @@
             "value": ""
         },
         {
+            "comments": "Disable using the OS's geolocation service: Windows",
+            "type": "lockPref",
+            "key": "geo.provider.ms-windows-location",
+            "value": false
+        },
+        {
+            "comments": "Disable using the OS's geolocation service: Mac",
+            "type": "lockPref",
+            "key": "geo.provider.use_corelocation",
+            "value": false
+        },
+        {
+            "comments": "Disable using the OS's geolocation service: Linux",
+            "type": "lockPref",
+            "key": "geo.provider.use_gpsd",
+            "value": false
+        },
+        {
             "comments": "",
             "type": "lockPref",
             "key": "identity.fxaccounts.auth.uri",
@@ -641,6 +659,24 @@
             "type": "lockPref",
             "key": "identity.mobilepromo.ios",
             "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "remote.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "remote.force-local",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "remote.log.level",
+            "value": "Info"
         },
         {
             "comments": "",
@@ -684,6 +720,36 @@
             "type": "lockPref",
             "key": "network.predictor.enable-prefetch",
             "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.connectivity-service.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.connectivity-service.IPv6.url",
+            "value": "http://0.0.0.0"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.connectivity-service.IPv4.url",
+            "value": "http://0.0.0.0"
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.connectivity-service.DNSv6.domain",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.connectivity-service.DNSv4.domain",
+            "value": ""
         },
         {
             "comments": "",
@@ -913,6 +979,12 @@
             "type": "lockPref",
             "key": "toolkit.telemetry.coverage.opt-out",
             "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "toolkit.telemetry.ecosystemtelemetry.enabled",
+            "value": false
         },
         {
             "comments": "",
@@ -1785,6 +1857,24 @@
                 "https://support.mozilla.org/en-US/questions/973320",
                 "https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/browser.pagethumbnails.capturing_disabled"
             ]
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.messaging-system.whatsNewPanel.enabled",
+            "value": false
         }
     ]
 }

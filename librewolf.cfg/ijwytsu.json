@@ -42,6 +42,18 @@
         {
             "comments": "",
             "type": "lockPref",
+            "key": "extensions.htmlaboutaddons.discovery.api_url",
+            "value": ""
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "extensions.htmlaboutaddons.discover.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
             "key": "extensions.htmlaboutaddons.recommendations.enabled",
             "value": false
         },

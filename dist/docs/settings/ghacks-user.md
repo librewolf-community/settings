@@ -17,6 +17,27 @@ Status: **locked**
 Value: `true`
 
 
+## `browser.discovery.enabled`
+
+Status: **locked**
+
+Value: `false`
+
+
+## `browser.discovery.containers.enabled`
+
+Status: **locked**
+
+Value: `false`
+
+
+## `browser.discovery.sites`
+
+Status: **locked**
+
+Value: `""`
+
+
 ## `browser.download.manager.addToRecentDocs`
 
 Status: **locked**
@@ -106,6 +127,13 @@ Value: `""`
 Status: **locked**
 
 Value: `""`
+
+
+## `targetBlankNoOpener.enabled`
+
+Status: **locked**
+
+Value: `true`
 
 
 ## `security.data_uri.block_toplevel_data_uri_navigations`
@@ -397,9 +425,19 @@ Value: `true`
 
 ## `dom.IntersectionObserver.enabled`
 
+**Unused Setting**
+
 Status: **locked**
 
 Value: `false`
+
+*Disabling this breaks the network panel.*
+
+
+
+### References
+
+[https://github.com/ghacksuserjs/ghacks-user.js/issues/737](https://github.com/ghacksuserjs/ghacks-user.js/issues/737)
 
 
 ## `accessibility.force_disabled`

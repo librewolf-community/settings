@@ -49,6 +49,13 @@
             "type": "lockPref",
             "key": "network.http.spdy.enabled.http2",
             "value": false
+        },
+        {
+            "enabled": false,
+            "comments": "",
+            "type": "lockPref",
+            "key": "network.http.spdy.websockets",
+            "value": false
         }
     ]
 }

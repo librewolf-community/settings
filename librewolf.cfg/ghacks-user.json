@@ -18,6 +18,24 @@
         },
         {
             "comments": "",
+            "type": "lockPref",
+            "key": "browser.discovery.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.discovery.containers.enabled",
+            "value": false
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
+            "key": "browser.discovery.sites",
+            "value": ""
+        },
+        {
+            "comments": "",
             "notes": "Do not disable",
             "type": "lockPref",
             "key": "browser.download.manager.addToRecentDocs",
@@ -101,12 +119,17 @@
         {
             "comments": "",
             "type": "lockPref",
+            "key": "targetBlankNoOpener.enabled",
+            "value": true
+        },
+        {
+            "comments": "",
+            "type": "lockPref",
             "key": "security.data_uri.block_toplevel_data_uri_navigations",
             "value": true
         },
         {
             "comments": "",
-            "notes": "Hidden preference",
             "type": "lockPref",
             "key": "ui.use_standins_for_native_colors",
             "value": true
@@ -352,10 +375,14 @@
             "value": true
         },
         {
-            "comments": "",
+            "enabled": false,
+            "comments": "Disabling this breaks the network panel.",
             "type": "lockPref",
             "key": "dom.IntersectionObserver.enabled",
-            "value": false
+            "value": false,
+            "references": [
+                "https://github.com/ghacksuserjs/ghacks-user.js/issues/737"
+            ]
         },
         {
             "comments": "",

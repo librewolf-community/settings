@@ -45,6 +45,20 @@ Status: **locked**
 Value: `false`
 
 
+## `extensions.htmlaboutaddons.discovery.api_url`
+
+Status: **locked**
+
+Value: `""`
+
+
+## `extensions.htmlaboutaddons.discover.enabled`
+
+Status: **locked**
+
+Value: `false`
+
+
 ## `extensions.htmlaboutaddons.recommendations.enabled`
 
 Status: **locked**
