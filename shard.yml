@@ -1,0 +1,19 @@
+name: librewolf_parser
+version: 0.1.0
+
+authors:
+  - ohfp <1813007-ohfp@users.noreply.gitlab.com>
+
+# dependencies:
+  # markd:
+    # github: icyleaf/markd
+  # tablo:
+    # github: hutou/tablo
+
+targets:
+  librewolf_parser:
+    main: src/librewolf_parser.cr
+
+crystal: 0.34.0
+
+license: MPL2
